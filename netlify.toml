@@ -14,13 +14,13 @@
 # repository branch will inherit these settings.
 [context.production]
   command = "make production"
-  [context.production.environment]
-    ACCESS_TOKEN = "super secret"
+[context.production.environment]
+  HUGO_VERSION = "0.26"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
 [context.deploy-preview.environment]
-  ACCESS_TOKEN = "not so secret"
+  HUGO_VERSION = "0.26"
 
 # Branch Deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
