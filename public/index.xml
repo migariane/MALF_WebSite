@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic on Academic</title>
+    <link>/</link>
+    <description>Recent content in Academic on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Targeted Maximum Likelihood Estimation: A tutorial</title>
+      <link>/publication/sim/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sim/</guid>
+      <description>&lt;p&gt;KEYWORDS: Causal Inference, Machine Learning, Observational Studies, Targeted Maximum Likelihood Estimation, Super Learner, Epidemiology, Statistics&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data-Adaptive Estimation for Double-Robust Methods in Population-Based Cancer Epidemiology: Risk differences for lung cancer mortality by emergency presentation</title>
+      <link>/publication/tmle/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/tmle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Epidemiology in the Era of the Big Data Revolution: New Opportunities.</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ensemble Learning Targeted Maximum Likelihood Estimation, at London.</title>
+      <link>/talk/example-talk2/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/example-talk2/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ensemble Learning for Model Prediction in Cancer Epidemiology</title>
+      <link>/project/elmpce/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/elmpce/</guid>
+      <description>&lt;p&gt;I am developing a cutting edge approach to evaluate and calibrate the performance of new and classic cancer comorbodity index such as the Charlson&amp;rsquo;s comorbidity score. Using a logistic model impose stringent constraints on the association between the explanatory variables and risk of death. For instance, the main-term logistic regression typically relies on a linear and additive relationship between a pre-specified transformation of the mean outcome and its predictors. Given the complex relationship between cancer mortality and comorbidity, the predictive power might be low if an incorrect parametric model is used as opposed to a more flexible option. I am using Data adaptive ensemble learning methods based on the Super Learner as a method for variable selection via cross-validation to select the optimum regression algorithm among all weighted combinations of a set of candidate machine learning algorithms. I am using different machine learning algorithms (Generalized Linear Models, Regression Trees, Bayesian Additive Regression Trees, Gradient Boosting, Generalized Additive Models, Stepwise Regression, Bayesian GLM, Lasso regression, Ridge Regression, Random Forest, Polynomial Spline Regression, and Bagging Classifier Trees). Then using cross-validation techniques I split the data into the mutually exclusive and exhaustive blocks of roughly equal size. Each algorithm is then fitted with nine blocks (the training set) and used to predict mortality for patients in the remaining block (the validation set). Finally, I calculate the mean squared error (MSE) between predicted and recorded mortality outcome comparing classical methods for prediction, machine learning and ensemble learning techniques.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Targeted Maximum Likelihood Estimation: A Tutorial for Applied Researchers</title>
+      <link>/project/tmle/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/tmle/</guid>
+      <description>&lt;p&gt;When estimating the average treatment effect for a binary or continuous outcome, methods that incorporate propensity scores, the G-formula, or Targeted Maximum Likelihood Estimation (TMLE) are preferred over naïve regression approaches which often lead misspecified models. Some methods require correct specification of the outcome model, whereas other methods require correct specification of the exposure model. Doubly-robust methods only require correct specification of one of these models. TMLE is a semiparametric doubly-robust method that enhances correct model specification by allowing flexible estimation using non-parametric machine-learning methods and requires weaker assumptions than its competitors. We provide a step-by-step guided implementation of TMLE and illustrate it in a realistic scenario based on cancer epidemiology where assumptions about correct model specification and positivity (i.e., when a study participant had zero probability of receiving the treatment) are nearly violated. This tutorial (&lt;a href=&#34;https://github.com/migariane/MALF&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/MALF&lt;/a&gt;) provides a concise and reproducible educational introduction to TMLE for a binary outcome and exposure. The reader should gain sufficient understanding of TMLE from this introductory tutorial to be able to apply the method in practice. Extensive R-code is provided in easy-to-read boxes throughout the article for replicability. Stata users will find a testing implementation of TMLE and additional material in the appendix and at the following GitHub repository: &lt;a href=&#34;https://github.com/migariane/SIM-TMLE-tutorial&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/SIM-TMLE-tutorial&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cvAUROC</title>
+      <link>/project/cvauroc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/cvauroc/</guid>
+      <description>&lt;p&gt;Receiver operating characteristic (ROC) analysis is used for comparing predictive models, both in model selection and model evaluation. This method is often applied in clinical medicine and social science to assess the tradeoff between model sensitivity and specificity. After fitting a binary logistic regression model with a set of independent variables, the predictive performance of this set of variables -as assessed by the area under the curve (AUC) from a ROC curve- must be estimated for a sample (the test sample) that is independent of the sample used to predict the dependent variable (the training sample). An important aspect of predictive modeling (regardless of model type) is the ability of a model to generalize to new cases. Evaluating the predictive performance (AUC) of a set of independent variables using all cases from the original analysis sample tends to result in an overly optimistic estimate of predictive performance. K-fold cross-validation can be used to generate a more realistic estimate of predictive performance. To assess this ability in situations in which the number of observations is not very large, cross-validation and bootstrap strategies are useful. cvAUROC implements is a Stata program that implements k-fold cross-validation for the AUC for a binary outcome after fitting a logistic regression model.&lt;br /&gt;
+1. &lt;a href=&#34;https://ideas.repec.org/c/boc/bocode/s458324.html&#34; target=&#34;_blank&#34;&gt;https://ideas.repec.org/c/boc/bocode/s458324.html&lt;/a&gt;&lt;br /&gt;
+2. &lt;a href=&#34;https://github.com/migariane/cvAUROC&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/cvAUROC&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
