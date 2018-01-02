@@ -1,3 +1,3 @@
-# Miguel Angel Luque Fernandez: MALF_WebSite
+# Miguel Angel Luque Fernandez
 My Academic Website
 
