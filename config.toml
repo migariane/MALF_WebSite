@@ -1,4 +1,4 @@
-lbaseurl = "http://watzilei.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+lbaseurl = "https://maluque.netlify.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "MALF"
 copyright = "&copy; 2017 Miguel Angel Luque Fernandez"
 theme = "academic"
