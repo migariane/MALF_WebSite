@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Academic</title>
+    <title>Publications on MALF</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on Academic</description>
+    <description>Recent content in Publications on MALF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Miguel Angel Luque Fernandez</copyright>
@@ -26,6 +26,15 @@
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/tmle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deconstructing the smoking-preeclampsia paradox through a counterfactual framework</title>
+      <link>/publication/psp/</link>
+      <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/psp/</guid>
       <description></description>
     </item>
     

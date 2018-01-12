@@ -40,16 +40,16 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Miguel-Angel Luque-Fernandez"
-  role = "Senior Scientific Researcher in Epidemiology and Biostatistics (ISCIII, Spain). Assistant Profesor (Honorific) in Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist (Visitor) at the TH Chan Harvard School of Public , Boston, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the Univeriste Libre de Bruxelles, Belgium (Department of Epidemiology and Biostatistics)."
+  role = "Senior Scientific Researcher in Epidemiology and Biostatistics (ISCIII, Spain). Assistant Profesor (Honorary) in Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist (Visitor) at the TH Chan Harvard School of Public , Boston, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the Univeriste Libre de Bruxelles, Belgium (Department of Epidemiology and Biostatistics)."
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "National Institute of Health Carlos III (Miguel Servet I Award)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.ac.be/rech/inventaire/chercheurs/9/CH14549.html" } ]
+  organizations = [ { name = "Andalusian School of Public Health (ibs.Granada, Miguel Servet I Award: National Institute of Health Carlos III)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.ac.be/rech/inventaire/chercheurs/9/CH14549.html" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "watzilei at hotmail.com"
-  address = "Andalusian School of Public Health, University of Granada, Granada, Spain"
+  address = "Andalusian School of Public Health, 18080 Cuesta del Observatorio 4, Granada, Spain"
   office_hours = "Friday 8:00 to 10:00 or email for appointment"
   #phone = "888 888 88 88"
   skype = "watzilei"
@@ -272,3 +272,5 @@ defaultContentLanguageInSubdir = false
 # Configure the English version of the website.
   [Languages.en]
   languageCode = "en-us"
+
+
