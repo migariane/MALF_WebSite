@@ -33,7 +33,7 @@ weight = 5
   year = 2015
 
 [[education.courses]]
-  course = "MSs in Field Epidemiology Training Program (Epidemic Intelligence Officer Service)"
+  course = "Field Epidemiology Training Program (Epidemic Intelligence Officer Service)"
   institution = "National Center of Epidemiology, ISCIII, Madrid, Spain"
   year = 2009
   
