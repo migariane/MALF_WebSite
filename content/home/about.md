@@ -22,6 +22,11 @@ weight = 5
   year = 2010
 
 [[education.courses]]
+  course = "BSc in Mathematics and Statistics"
+  institution = "Open University, UK"
+  year = 2020
+
+[[education.courses]]
   course = "MSc in Biostatistics"
   institution = "University of Newcastle, Australia"
   year = 2015
@@ -30,6 +35,11 @@ weight = 5
   course = "MSc in Epidemiology and Biostatistics"
   institution = "Universite Libre de Bruxelles, Belgium"
   year = 2007
+  
+[[education.courses]]
+  course = "Field Epidemiology Training Program (Epidemic Intelligence Service)"
+  institution = "National Center of Epidemiology, ISCIII, Madrid, Spain"
+  year = 2006
 
 [[education.courses]]
   course = "Master in Public Health (MPH) and Health Management"
@@ -40,11 +50,26 @@ weight = 5
   course = "MA in Social and Cultural Anthropology"
   institution = "University of Granada, Spain"
   year = 2004
+  
+[[education.courses]]
+  course = "University Diploma in Biostatistics"
+  institution = "Distance University, Madrid, Spain"
+  year = 2003
+  
+[[education.courses]]
+  course = "University Diploma in International Health"
+  institution = "National Center of Epidemiology, ISCIII, Madrid, Spain"
+  year = 2003
 
 [[education.courses]]
-  course = "BSc in Mathematics and Statistics"
-  institution = "Open University, UK"
-  year = 2020
+  course = "Obstetrics and Gynecology Specialization (Midfiwe)"
+  institution = "University of Granada"
+  year = 1999
+  
+[[education.courses]]
+  course = "BSc in Health Sciences"
+  institution = "University of Granada, Spain"
+  year = 1993
  
 +++
 
