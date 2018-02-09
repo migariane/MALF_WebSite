@@ -32,19 +32,19 @@ weight = 5
   year = 2007
 
 [[education.courses]]
-  course = "Master in Public Health and Health Management"
+  course = "Master in Public Health (MPH) and Health Management"
   institution = "University of Granada, Andalusian School of Public Health"
   year = 2005
+  
+[[education.courses]]
+  course = "MA in Social and Cultural Anthropology"
+  institution = "University of Granada, Spain"
+  year = 2004
 
 [[education.courses]]
   course = "BSc in Mathematics and Statistics"
   institution = "Open University, UK"
   year = 2020
-
-[[education.courses]]
-  course = "BSc in Social and Cultural Anthropology"
-  institution = "University of Granada, Spain"
-  year = 2004
  
 +++
 
