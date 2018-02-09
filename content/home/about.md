@@ -16,6 +16,7 @@ weight = 5
   ]
 
 # List your qualifications (such as academic degrees).
+
 [[education.courses]]
   course = "PhD in Epidemiology and Public Health"
   institution = "University of Granada, Spain"
@@ -32,15 +33,15 @@ weight = 5
   year = 2015
 
 [[education.courses]]
+  course = "MSs in Field Epidemiology Training Program (Epidemic Intelligence Officer Service)"
+  institution = "National Center of Epidemiology, ISCIII, Madrid, Spain"
+  year = 2009
+  
+[[education.courses]]
   course = "MSc in Epidemiology and Biostatistics"
   institution = "Universite Libre de Bruxelles, Belgium"
   year = 2007
   
-[[education.courses]]
-  course = "Field Epidemiology Training Program (Epidemic Intelligence Service)"
-  institution = "National Center of Epidemiology, ISCIII, Madrid, Spain"
-  year = 2006
-
 [[education.courses]]
   course = "Master in Public Health (MPH) and Health Management"
   institution = "University of Granada, Andalusian School of Public Health"
@@ -53,7 +54,7 @@ weight = 5
   
 [[education.courses]]
   course = "University Diploma in Biostatistics"
-  institution = "Distance University, Madrid, Spain"
+  institution = "UNED University, Madrid, Spain"
   year = 2003
   
 [[education.courses]]
@@ -62,7 +63,7 @@ weight = 5
   year = 2003
 
 [[education.courses]]
-  course = "Obstetrics and Gynecology Specialization (Midfiwe)"
+  course = "Obstetrics and Gynecology (Midwife)"
   institution = "University of Granada"
   year = 1999
   
