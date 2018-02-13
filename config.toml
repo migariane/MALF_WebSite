@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = false
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/readfiles/bfconfig/
+# See: https://gohugo.io/readfiles/bfconfig/
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
@@ -44,7 +44,7 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Andalusian School of Public Health (ibs.Granada, Miguel Servet I Award: National Institute of Health Carlos III)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.ac.be/rech/inventaire/chercheurs/9/CH14549.html" } ]
+  organizations = [ { name = "Andalusian School of Public Health (ibs.Granada, Miguel Servet I Award: Carlos III Institute of Health)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.ac.be/rech/inventaire/chercheurs/9/CH14549.html" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
