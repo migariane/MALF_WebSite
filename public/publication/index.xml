@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on MALF</title>
-    <link>/publication/</link>
+    <link>https://maluque.netlify.com/publication/</link>
     <description>Recent content in Publications on MALF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,29 +12,29 @@
     
     <item>
       <title>Targeted Maximum Likelihood Estimation: A tutorial</title>
-      <link>/publication/sim/</link>
+      <link>https://maluque.netlify.com/publication/sim/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/sim/</guid>
+      <guid>https://maluque.netlify.com/publication/sim/</guid>
       <description>&lt;p&gt;KEYWORDS: Causal Inference, Machine Learning, Observational Studies, Targeted Maximum Likelihood Estimation, Super Learner, Epidemiology, Statistics&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Data-Adaptive Estimation for Double-Robust Methods in Population-Based Cancer Epidemiology: Risk differences for lung cancer mortality by emergency presentation</title>
-      <link>/publication/tmle/</link>
+      <link>https://maluque.netlify.com/publication/tmle/</link>
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/tmle/</guid>
+      <guid>https://maluque.netlify.com/publication/tmle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deconstructing the smoking-preeclampsia paradox through a counterfactual framework</title>
-      <link>/publication/psp/</link>
+      <link>https://maluque.netlify.com/publication/psp/</link>
       <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/psp/</guid>
+      <guid>https://maluque.netlify.com/publication/psp/</guid>
       <description></description>
     </item>
     

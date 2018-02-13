@@ -1,4 +1,4 @@
-lbaseurl = "https://maluque.netlify.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://maluque.netlify.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "MALF"
 copyright = "&copy; 2017 Miguel Angel Luque Fernandez"
 theme = "academic"
@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Miguel-Angel Luque-Fernandez"
-  role = "Senior Scientific Researcher in Epidemiology and Biostatistics (ISCIII, Spain). Assistant Profesor (Honorary) in Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist (Visitor) at the TH Chan Harvard School of Public , Boston, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the Univeriste Libre de Bruxelles, Belgium (Department of Epidemiology and Biostatistics)."
+  role = "Senior Scientific Researcher in Epidemiology and Biostatistics (ISCIII, Spain). Assistant Professor (Honorary) in Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist (Visitor) at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the Universite Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics)."
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -48,10 +48,10 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "watzilei at hotmail.com"
-  address = "Andalusian School of Public Health, 18080 Cuesta del Observatorio 4, Granada, Spain"
+  email = "miguel.luque.easp  at juntadeandalucia.es"
+  address = "Andalusian School of Public Health, 18010 Cuesta del Observatorio 4, Granada, Spain"
   office_hours = "Friday 8:00 to 10:00 or email for appointment"
-  #phone = "888 888 88 88"
+  phone = "0034 677 903 936"
   skype = "watzilei"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
