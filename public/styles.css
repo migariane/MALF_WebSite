@@ -26,13 +26,13 @@
 
 html {
   font-family: 'Merriweather', sans-serif;
-  font-size: 24px;
+  font-size: 16px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -50,6 +50,19 @@ body {
   body {
     margin-top: 51px; /* Offset body content by navbar height. */
   }
+}
+
+.max-width-640 {
+  max-width: 640px;
+}
+
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text {
+  text-align: center;
 }
 
 /* Body text */
@@ -80,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
+  overflow-wrap: break-word; /* Ensures very long heading words do not overflow into content. */
 }
 h1 {
   font-size: 2.25rem;
@@ -118,15 +132,15 @@ video {
   display: block;
 }
 
+video {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
 .img-responsive {
   /* Extend Bootstrap declaration with centering. */
   margin: 0 auto;
-}
-
-figcaption:before {
-  font-weight: 700;
-  text-transform: uppercase;
-  content: "Figure " counter(captions) ": ";
 }
 
 figcaption {
@@ -136,11 +150,20 @@ figcaption {
   font-size: 1rem;
   margin-bottom: 1.65rem;
   font-family: 'Lato', sans-serif;
+}
+
+figcaption.numbered:before {
+  font-weight: 700;
+  text-transform: uppercase;
+  content: attr(data-pre) counter(captions) attr(data-post);
+}
+
+figcaption.numbered {
   counter-increment: captions;
 }
 
 figcaption h4 {
-  display: inline-block;
+  display: inline;
   font-size: 1rem;
   font-weight: 400;
   margin: 0;
@@ -155,9 +178,13 @@ code {
 
 pre {
   margin: 0 0 1rem 0;
-  overflow: auto;
   background-color: rgb(248, 248, 248); /* Match default highlight theme. */
   border-color: rgb(248, 248, 248);
+}
+
+pre code {
+  white-space: pre; /* Override Bootstrap to preserve line breaks in code. */
+  overflow-x: auto;
 }
 
 hr {
@@ -182,6 +209,11 @@ blockquote p:last-child {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
+}
+
+.markup-quote {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, rgba(233, 231, 245, 1), rgba(233, 231, 245, 1));
 }
 
 .space-below {
@@ -210,6 +242,10 @@ small,
   font-size: .75em;
 }
 
+.responsive-wrap iframe {
+  max-width: 100%;
+}
+
 /*************************************************
  *  Modals.
  **************************************************/
@@ -228,6 +264,68 @@ small,
 
 #modal-error {
   color: red;
+}
+
+/*************************************************
+ *  Gallery.
+ **************************************************/
+
+.gallery {
+  margin: 0.5em -4px 1.5em -4px;
+  font-size: 0;
+}
+
+a[data-fancybox] {
+  text-decoration: none;
+}
+
+a[data-fancybox] img {
+  height: 250px;
+  max-width: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 4px;
+  box-shadow: none;
+  vertical-align: inherit;
+}
+
+.fancybox-caption {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+/*************************************************
+ *  Pager.
+ **************************************************/
+
+.post-nav {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.post-nav-item {
+  hyphens: auto;
+  word-wrap: break-word;
+  padding: 11px 0 12px;
+  width: 100%;
+}
+
+.post-nav-item a {
+  color: #2b2b2b;
+  line-height: 1.7;
+  text-transform: none;
+}
+
+.post-nav-item .meta-nav {
+  color: #767676;
+  font-weight: 900;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.dark .post-nav-item a {
+  color: #ddd;
 }
 
 /*************************************************
@@ -325,6 +423,37 @@ small,
 }
 
 /*************************************************
+ *  Featurette Widget
+ **************************************************/
+
+.featurette {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+
+.featurette h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #333;
+}
+
+.dark .featurette,
+.dark .featurette h3 {
+  color: #fff;
+}
+
+.featurette-icon {
+  display: block;
+  width: 100%;
+  color: #3f51b5;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*************************************************
  *  Biography
  **************************************************/
 
@@ -361,6 +490,7 @@ small,
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin-top: 30px;
@@ -517,12 +647,17 @@ article {
 }
 
 .article-metadata {
-  margin-bottom: 20px;
-  line-height: 30px; /* Match share bar line height. */
+  margin-bottom: 15px;
   overflow: hidden;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: #888;
+}
+
+/* For article page only, not lists. */
+article .article-metadata {
+  margin-bottom: 20px;
+  line-height: 30px; /* Match share bar line height. */
 }
 
 .article-metadata a {
@@ -531,18 +666,6 @@ article {
 
 .article-metadata a:hover {
   color: #3f51b5;
-}
-
-.article-list-item {
-  margin-bottom: 40px;
-}
-
-.article-list-item:last-child {
-  margin-bottom: 0 !important;
-}
-
-.article-list-item .article-metadata {
-  margin-bottom: 5px;
 }
 
 .middot-divider {
@@ -557,13 +680,11 @@ article {
 
 .article-style img,
 .article-style video {
-  box-shadow: 1px 1px 0px #edefed, -1px -1px 0px #edefed, 1px -1px 0px #edefed, -1px 1px 0px #edefed;
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
   margin-bottom: 60px;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
 }
 
 .article-style td img,
@@ -617,10 +738,6 @@ article {
   margin-right: auto;
 }
 
-.pub .pub-title {
-  margin-bottom: 5px;
-}
-
 .pub .pub-authors {
   font-style: italic;
   line-height: 30px; /* Match share bar line height. */
@@ -628,10 +745,6 @@ article {
 
 .pub .pub-row-heading {
   font-weight: bold;
-}
-
-.pub-list-item {
-  margin-bottom: 40px;
 }
 
 .pub-list-item .pub-abstract {
@@ -721,6 +834,29 @@ article {
 /*************************************************
  *  Card component
  **************************************************/
+
+.card-simple {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+}
+
+.card-simple:first-of-type {
+  margin-top: 0;
+}
+
+.card-simple p.read-more {
+  margin: 0;
+}
+
+.dark .card-simple {
+  background: rgb(40, 42, 54);
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgb(68, 71, 90);
+}
 
 .card {
   margin-bottom: 1.5rem;
@@ -999,7 +1135,7 @@ footer a#back_to_top i {
 }
 
 nav#navbar-main li {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .navbar-default .navbar-nav>li>a,
@@ -1339,6 +1475,14 @@ body.dark {
 .dark pre {
   background-color: rgb(68, 71, 90);
   border-color: rgb(68, 71, 90);
+}
+
+.dark .markup-quote {
+  background-image: linear-gradient(to bottom, rgba(233, 231, 245, 0.2), rgba(233, 231, 245, 0.2));
+}
+
+.dark #MathJax_Zoom {
+  background-color: rgb(68, 71, 90) !important;
 }
 
 .dark ul.share li a {
