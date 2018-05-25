@@ -27,7 +27,13 @@ Also, I am developing software for teaching and scientific interests:
 
 - [Link to Software](https://scholar.harvard.edu/malf/software-0)
 
-- [Shiny App: Parametrical Survival Distributions](http://watzilei.com/shiny/)
+- [Shiny App: Parametrical Survival Distributions](http://watzilei.com/shiny/Pardist/)
+
+- [Shiny App: Colliders in Epidemiology](http://watzilei.com/shiny/collider/)
+
+- [Shiny App: Expected Date of Delivery](http://watzilei.com/shiny/EDL/)
+
+- [Shiny App: Cancer comorbidities](http://watzilei.com/shiny/CoMCoR/)
 
 - [Cross-validation Tutorial](https://migariane.github.io/CrossValidation.nb.html)
 
