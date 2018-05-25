@@ -36,7 +36,7 @@ defaultContentLanguageInSubdir = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font ="playfair"
 
   # Your details.
   name = "Miguel-Angel Luque-Fernandez"
