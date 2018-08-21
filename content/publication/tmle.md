@@ -45,10 +45,6 @@ url_video = ""
 url_poster = ""
 url_source = ""
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "https://academic.oup.com/aje/advance-article/doi/10.1093/aje/kwx317/4110407"}]
-
 # Does the content use math formatting?
 math = true
 
