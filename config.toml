@@ -40,11 +40,11 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Miguel-Angel Luque-Fernandez"
-  role = "Senior Scientific Researcher in Epidemiology and Biostatistics (ISCIII, Spain). Assistant Professor (Honorary) in Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist (Visitor) at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the Universite Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics)."
+  role = "Senior Scientific Researcher of Epidemiology and Biostatistics (ISCIII, Spain). Assistant Professor (Honorary) of Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist (Visitor) at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the Universite Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics)."
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Andalusian School of Public Health (ibs.Granada, Miguel Servet I Award: Carlos III Institute of Health)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.ac.be/rech/inventaire/chercheurs/9/CH14549.html" } ]
+  organizations = [ { name = "Biomedical Research Institute of Granada (Andalusian School of Public Health, Miguel Servet I Award from the Carlos III Institute of Health)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.ac.be/rech/inventaire/chercheurs/9/CH14549.html" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
