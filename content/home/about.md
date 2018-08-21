@@ -39,7 +39,7 @@ weight = 5
   
 [[education.courses]]
   course = "MSc in Epidemiology and Biostatistics"
-  institution = "Université Libre de Bruxelles, Belgium"
+  institution = "Universite Libre de Bruxelles, Belgium"
   year = 2007
   
 [[education.courses]]
