@@ -42,5 +42,10 @@ filter_default = 0
   name = "ELMPCE"
   tag = ".elmpce"
 
+
+[[filter]]
+  name = "Collider"
+  tag = ".collider"
+
 +++
 
