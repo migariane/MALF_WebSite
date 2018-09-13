@@ -36,14 +36,14 @@ selected = true
 
 # Links (optional).
 url_pdf = "http://researchonline.lshtm.ac.uk/cgi/search/advanced?lshtm_pub_id=26975379"
-url_preprint = ""
+url_preprint = "https://rdcu.be/6gNZ"
 url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://rdcu.be/6gNZ"
 
 # Custom links (optional).
 # Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
