@@ -35,11 +35,11 @@ image_preview = &amp;ldquo;Figure1.png&amp;rdquo;&lt;br /&gt;
 &lt;p&gt;A clinician may be interested in the following:&lt;br /&gt;
 how different would the risk of death have been had everyone received dual therapy compared to if everyone had experienced monotherapy? The causal marginal odds ratio (MOR) answers this question. Statisticians call this a “target quantity”. Each individual has a pair of potential outcomes: the outcome they would have received had they been exposed to dual treatment (A=1), denoted Y(1), and the outcome had they been unexposed, Y(0). The MOR is defined as:&lt;/p&gt;
 
-&lt;p&gt;image_preview = &amp;ldquo;MOR2.png&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;static/img/MOR2.png&#34; alt=&#34;Figure Link&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A common approach would be to use logistic regression to model the odds of mortality given the intervention, and adjust for the confounders (W) which are age (w1)  socioeconomic status (w2), clinical stage (w3) and comorbidities (w4). Note that using a logistic regression, it estimates the conditional odds ratio (COR), which is:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;COR2.png&#34; alt=&#34;Figure Link&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;static/img/COR2.png&#34; alt=&#34;Figure Link&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;MOR and COR are typically not identical. First, if there is effect modification, e.g. if the effect of dual therapy is different for patients with no comorbidities compared to those having hypertension, then logistic regression (possibly including an interaction of treatment with one of the confounders) will not provide a marginal effect estimate, but only one conditional on the respective morbidity. To be more precise: we obtain an odds ratio that is valid for a given group of people, say those with hypertension, but it will not give us a marginal estimate. However, we are interested in a marginal estimate because we want to know if the dual therapy works in general. Of course, one may be specifically interested in patients with hypertension, but then the OR for this group is again conditional on the other variables, for example for elderly people, from a low socio-economic level, and advanced stage.&lt;/p&gt;
 
@@ -53,7 +53,7 @@ how different would the risk of death have been had everyone received dual thera
 
 &lt;p&gt;An alternative to using multivariable regression adjustment is the &lt;strong&gt;G-Formula&lt;/strong&gt; &lt;a href=&#34;a generalization of standardization with respect to the confounder distribution&#34; target=&#34;_blank&#34;&gt;5&lt;/a&gt;. In 1986, a seminal paper [5] demonstrated that under assumptions (conditional exchangeability, positivity, consistency, and non-interference, see Appendix below), a consistent estimate of the MOR can be obtained using the G-formula. G-computation,[6] based on the estimation of the components in the G-formula, allows for a treatment effect that may vary across the levels of the confounders.  Furthermore, under the assumption that the DAG above (Figure 1) is correct and the other assumptions, we can estimate the MOR using the g-formula as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;MOR.png&#34; alt=&#34;Figure Link&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;static/img/MOR.png&#34; alt=&#34;Figure Link&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;where P(W=w) refers to the marginal probability of w.&lt;/p&gt;
 
@@ -67,7 +67,7 @@ how different would the risk of death have been had everyone received dual thera
 
 &lt;p&gt;&lt;strong&gt;Figure 2&lt;/strong&gt; Absolute bias with respect the marginal causal odds ratio comparing the conditional odds ratio from classical multivariable logistic regression models versus the marginal odds ratio from G-computation based on the G-Formula, n = 5,000 and 10,000 simulation runs.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;Figure2.png&#34; alt=&#34;Figure Link&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;static/img/Figure2.png&#34; alt=&#34;Figure Link&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Briefly, one can see the bias of the multivariable logistic regression model is more pronounced under effect modification but persists -due to non-collapsibility- even under no effect modification.&lt;/p&gt;
 
