@@ -16,7 +16,7 @@ image_preview = "MOR.png"
 tags = ["hetmor"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/migariane/hetmor/blob/master/README.md"
+#external_link = "https://github.com/migariane/hetmor/blob/master/README.md"
 
 # Does the project detail page use math formatting?
 math = false
