@@ -38,13 +38,13 @@ To discuss these concepts, we are looking at an example from cancer epidemiology
 The assumptions from above can be encoded in a directed acyclic graph (DAG) (Figure 1). Here, each circle represents a variable and an arrow from A to B (A -> B) means that we assume that A causes B. The combination of these structural assumptions and appropriate statistical methods allow us to estimate the causal effect of dual therapy versus monotherapy on colorectal cancer patients' survival.  
 
 **Figure 1** Directed Acyclic Graph    
-![Figure Link](Figure1.png)  
+image_preview = "Figure1.png"  
 **The question we want to answer**  
 
 A clinician may be interested in the following:     
 how different would the risk of death have been had everyone received dual therapy compared to if everyone had experienced monotherapy? The causal marginal odds ratio (MOR) answers this question. Statisticians call this a “target quantity”. Each individual has a pair of potential outcomes: the outcome they would have received had they been exposed to dual treatment (A=1), denoted Y(1), and the outcome had they been unexposed, Y(0). The MOR is defined as:  
 
-![Figure Link](MOR2.png)
+image_preview = "MOR2.png"
 
 A common approach would be to use logistic regression to model the odds of mortality given the intervention, and adjust for the confounders (W) which are age (w1)  socioeconomic status (w2), clinical stage (w3) and comorbidities (w4). Note that using a logistic regression, it estimates the conditional odds ratio (COR), which is: 
 
@@ -62,7 +62,8 @@ Thus, in summary, as pointed out by Spiegelman et al [1] it can a be an option t
 
 An alternative to using multivariable regression adjustment is the **G-Formula** [5] (a generalization of standardization with respect to the confounder distribution). In 1986, a seminal paper [5] demonstrated that under assumptions (conditional exchangeability, positivity, consistency, and non-interference, see Appendix below), a consistent estimate of the MOR can be obtained using the G-formula. G-computation,[6] based on the estimation of the components in the G-formula, allows for a treatment effect that may vary across the levels of the confounders.  Furthermore, under the assumption that the DAG above (Figure 1) is correct and the other assumptions, we can estimate the MOR using the g-formula as follows:  
 
-![Figure Link](MOR.png)    
+![Figure Link](MOR.png)  
+  
 where P(W=w) refers to the marginal probability of w. 
 
 **A Monte-Carlo simulation**  
