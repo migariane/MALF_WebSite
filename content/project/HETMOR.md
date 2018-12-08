@@ -38,17 +38,18 @@ To discuss these concepts, we are looking at an example from cancer epidemiology
 The assumptions from above can be encoded in a directed acyclic graph (DAG) (Figure 1). Here, each circle represents a variable and an arrow from A to B (A -> B) means that we assume that A causes B. The combination of these structural assumptions and appropriate statistical methods allow us to estimate the causal effect of dual therapy versus monotherapy on colorectal cancer patients' survival.  
 
 **Figure 1** Directed Acyclic Graph    
-image_preview = "Figure1.png"  
+![This is an image](/img/Figure1.png)
+ 
 **The question we want to answer**  
 
 A clinician may be interested in the following:     
 how different would the risk of death have been had everyone received dual therapy compared to if everyone had experienced monotherapy? The causal marginal odds ratio (MOR) answers this question. Statisticians call this a “target quantity”. Each individual has a pair of potential outcomes: the outcome they would have received had they been exposed to dual treatment (A=1), denoted Y(1), and the outcome had they been unexposed, Y(0). The MOR is defined as:  
 
-![Figure Link](static/img/MOR2.png)
+![This is an image](/img/MOR2.png)
 
 A common approach would be to use logistic regression to model the odds of mortality given the intervention, and adjust for the confounders (W) which are age (w1)  socioeconomic status (w2), clinical stage (w3) and comorbidities (w4). Note that using a logistic regression, it estimates the conditional odds ratio (COR), which is: 
 
-![Figure Link](static/img/COR2.png)  
+![This is an image](/img/COR2.png)  
 
 MOR and COR are typically not identical. First, if there is effect modification, e.g. if the effect of dual therapy is different for patients with no comorbidities compared to those having hypertension, then logistic regression (possibly including an interaction of treatment with one of the confounders) will not provide a marginal effect estimate, but only one conditional on the respective morbidity. To be more precise: we obtain an odds ratio that is valid for a given group of people, say those with hypertension, but it will not give us a marginal estimate. However, we are interested in a marginal estimate because we want to know if the dual therapy works in general. Of course, one may be specifically interested in patients with hypertension, but then the OR for this group is again conditional on the other variables, for example for elderly people, from a low socio-economic level, and advanced stage.        
 
@@ -62,7 +63,7 @@ Thus, in summary, as pointed out by Spiegelman et al [1] it can a be an option t
 
 An alternative to using multivariable regression adjustment is the **G-Formula** [5] (a generalization of standardization with respect to the confounder distribution). In 1986, a seminal paper [5] demonstrated that under assumptions (conditional exchangeability, positivity, consistency, and non-interference, see Appendix below), a consistent estimate of the MOR can be obtained using the G-formula. G-computation,[6] based on the estimation of the components in the G-formula, allows for a treatment effect that may vary across the levels of the confounders.  Furthermore, under the assumption that the DAG above (Figure 1) is correct and the other assumptions, we can estimate the MOR using the g-formula as follows:  
 
-![Figure Link](static/img/MOR.png)  
+![This is an image](/img/MOR.png)  
   
 where P(W=w) refers to the marginal probability of w. 
 
@@ -76,7 +77,7 @@ We used the R-package simcausal [7] to generate data according to the DAG introd
 
 **Figure 2** Absolute bias with respect the marginal causal odds ratio comparing the conditional odds ratio from classical multivariable logistic regression models versus the marginal odds ratio from G-computation based on the G-Formula, n = 5,000 and 10,000 simulation runs.  
 
-![Figure Link](static/img/Figure2.png)  
+![This is an image](/img/Figure2.png)  
 
 Briefly, one can see the bias of the multivariable logistic regression model is more pronounced under effect modification but persists -due to non-collapsibility- even under no effect modification. 
 
