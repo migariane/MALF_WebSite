@@ -1,6 +1,6 @@
 +++
 title = "Educational Note: Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application"
-date = "2019-17-12"
+date = "2018-12-17"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Miguel Angel Luque-Fernandez"]
