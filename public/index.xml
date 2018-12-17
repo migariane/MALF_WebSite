@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Educational Note: Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application</title>
+      <link>https://maluque.netlify.com/publication/collider/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.com/publication/collider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HETMOR</title>
       <link>https://maluque.netlify.com/project/hetmor/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
@@ -212,15 +221,6 @@ To illustrate with an educational purpose the effect of conditioning on a collid
       <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://maluque.netlify.com/publication/psp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Educational Note: Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application</title>
-      <link>https://maluque.netlify.com/publication/collider/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://maluque.netlify.com/publication/collider/</guid>
       <description></description>
     </item>
     
