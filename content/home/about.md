@@ -12,7 +12,8 @@ weight = 5
   interests = [
     "Epidemiological Methods",
     "Causal Inference",
-    "Perinatal Epidemiology"
+    "Perinatal Epidemiology",
+    "Social Epidemiology"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -80,4 +81,4 @@ weight = 5
 
 My research interests lie principally, but not exclusively in the field of epidemiological methods and comparative effectiveness research. At UCT, I used marginal structural models applied to large longitudinal data from Khayelitsha (HIV-Cohort) to assess the effectiveness of an observational, nonrandomized intervention [Club of Patients](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0056088). At Harvard, I used fixed effects methods in the context of the analysis of the components of the variance and within siblings design (observational cross-over) to evaluate the effect of a small [fetoplacental ratio](https://www.ncbi.nlm.nih.gov/pubmed/25630563) at birth on the risk of delivering a small for gestational age infant. 
 
-Currently, I am developing in collaboration with colleagues from the Cancer Survival Group (CSG) at the LSHTM data-adaptive methods for model selection and evaluation based on cross-validation techniques [cvAUROC](https://github.com/migariane/cvAUROC) and applying advanced causal inference methods such as targeted maximum likelihood estimation [TMLE](https://github.com/migariane/meltmle) to study cancer outcomes.
+Currently, I am developing in collaboration with colleagues from the Cancer Survival Group (CSG) at the LSHTM data-adaptive methods for model selection and evaluation based on cross-validation techniques [cvAUROC](https://github.com/migariane/cvAUROC) and applying advanced causal inference methods such as targeted maximum likelihood estimation [TMLE](https://github.com/migariane/meltmle) to study cancer outcomes. Link to my updated list of publications [Publications List](https://scholar.harvard.edu/malf/publications)
