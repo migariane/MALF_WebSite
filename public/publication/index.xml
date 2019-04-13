@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Effect Modification and Collapsibility in Evaluations of Public Health Interventions </title>
+      <link>https://maluque.netlify.com/publication/effmod/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.com/publication/effmod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Educational Note: Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application</title>
       <link>https://maluque.netlify.com/publication/collider/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
