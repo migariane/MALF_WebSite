@@ -21,9 +21,9 @@ I am a Distance Learning Module Organizer for the MSc in Epidemiology at the LSH
 
 - Short Course: Survival Analysis in Cancer Epidemiology
 
-- Short Course: Introduction to Causal Inference and the Potential Outcomes Framework (In development)
+- Introduction to Causal Inference and the Potential Outcomes Framework: https://ccci.netlify.com/  
 
-Also, I am developing software for teaching and scientific interests:
+Also, I am developing software for teaching and scientific interests:  
 
 - [Link to Software](https://scholar.harvard.edu/malf/software-0)
 
