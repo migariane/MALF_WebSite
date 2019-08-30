@@ -59,24 +59,6 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://maluque.netlify.com/talk/example-talk2/</loc>
-      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://maluque.netlify.com/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -88,6 +70,24 @@
     
       <loc>https://maluque.netlify.com/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://maluque.netlify.com/talk/example-talk/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://maluque.netlify.com/talk/example-talk2/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
