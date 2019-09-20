@@ -29,5 +29,15 @@
 </description>
     </item>
     
+    <item>
+      <title>Paradoxical collider effect in the analysis of non-communicable disease epidemiological data: a reproducible illustration and web application .</title>
+      <link>https://maluque.netlify.com/talk/example-talk3/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://maluque.netlify.com/talk/example-talk3/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
