@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Using longitudinal targeted maximum likelihood estimation in complex settings with dynamic interventions</title>
+      <link>https://maluque.netlify.com/publication/ltmle/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.com/publication/ltmle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Effect Modification and Collapsibility in Evaluations of Public Health Interventions </title>
       <link>https://maluque.netlify.com/publication/effmod/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
