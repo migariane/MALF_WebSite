@@ -29,7 +29,7 @@ weight = 5
 [[education.courses]]
   course = "BSc in Mathematics and Statistics"
   institution = "Open University, UK"
-  year = 2020
+  year = 2022
   
 [[education.courses]]
   course = "University Certificate in Biostatistics"
