@@ -19,7 +19,7 @@ I am a Distance Learning Module Organizer for the MSc in Epidemiology at the LSH
 
 - EPM304 Advanced Statistical Methods in Epidemiology
 
-- Short Course: Survival Analysis in Cancer Epidemiology
+- Short Course: Introduction to Survival Analysis in Cancer Epidemiology: https://github.com/migariane/SVA-ULB
 
 - Introduction to Causal Inference and the Potential Outcomes Framework: https://ccci.netlify.com/  
 
