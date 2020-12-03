@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication/ltmle/</loc>
+      <loc>/publication/ltmle/</loc>
       <lastmod>2019-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication/effmod/</loc>
+      <loc>/publication/effmod/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication/collider/</loc>
+      <loc>/publication/collider/</loc>
       <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/project/hetmor/</loc>
+      <loc>/project/hetmor/</loc>
       <lastmod>2018-12-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/project/collider/</loc>
+      <loc>/project/collider/</loc>
       <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication/sim/</loc>
+      <loc>/publication/sim/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication/tmle/</loc>
+      <loc>/publication/tmle/</loc>
       <lastmod>2017-09-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/talk/example-talk/</loc>
+      <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/talk/example-talk2/</loc>
+      <loc>/talk/example-talk2/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/talk/example-talk3/</loc>
+      <loc>/talk/example-talk3/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/project/elmpce/</loc>
+      <loc>/project/elmpce/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/project/tmle/</loc>
+      <loc>/project/tmle/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,7 +131,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/project/cvauroc/</loc>
+      <loc>/project/cvauroc/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -140,7 +140,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication/psp/</loc>
+      <loc>/publication/psp/</loc>
       <lastmod>2016-03-14T00:00:00+00:00</lastmod>
     </url>
     
@@ -149,7 +149,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication_types/2/</loc>
+      <loc>/publication_types/2/</loc>
       <lastmod>2019-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -159,7 +159,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication_types/3/</loc>
+      <loc>/publication_types/3/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -169,7 +169,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -178,7 +178,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/tags/collider/</loc>
+      <loc>/tags/collider/</loc>
       <lastmod>2018-08-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -188,7 +188,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/tags/cvauroc/</loc>
+      <loc>/tags/cvauroc/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -198,7 +198,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/tags/elmpce/</loc>
+      <loc>/tags/elmpce/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -208,7 +208,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/tags/hetmor/</loc>
+      <loc>/tags/hetmor/</loc>
       <lastmod>2018-12-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -218,7 +218,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/</loc>
+      <loc>/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -228,7 +228,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2018-12-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -238,7 +238,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <lastmod>2019-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -248,7 +248,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/tags/tmle/</loc>
+      <loc>/tags/tmle/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -258,7 +258,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2018-08-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
