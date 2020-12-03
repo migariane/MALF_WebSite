@@ -91,4 +91,4 @@ My research interests lie principally, but not exclusively in the field of epide
 
 Currently, I am developing in collaboration with colleagues from the Cancer Survival Group (CSG) at the LSHTM data-adaptive methods for model selection and evaluation based on cross-validation techniques [cvAUROC](https://github.com/migariane/cvAUROC) and applying advanced causal inference methods such as targeted maximum likelihood estimation [TMLE](https://github.com/migariane/eltmle) to study social inequalities in cancer outcomes and survival.  
 
-Link to my list of publications: [LIST](https://scholar.harvard.edu/malf/publications)    
+Link to my list of publications (updated 2020): [LIST](https://scholar.harvard.edu/malf/publications)    
