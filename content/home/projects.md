@@ -51,8 +51,8 @@ filter_default = 0
   tag = ".hetmor"
 
 [[filter]]
-  name = "CCI_tutorial"
-  tag = ".cci_tutorial"
+  name = "CCI"
+  tag = ".cci"
   
 +++
 
