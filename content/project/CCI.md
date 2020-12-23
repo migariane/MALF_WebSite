@@ -6,8 +6,7 @@ date = "2016-04-27"
 title = "Tutorial: computational causal inference for applied researchers"
 
 # Project summary to display on homepage.
-summary = "In this tutorial the computational we show the implementation of different causal inference estimators from a historical perspective where different estimators were developed to overcome the limitations of the previous one. Furthermore, we also briefly introduce the potential outcomes framework, illustrate the use of different methods using an illustration from the health care setting, and most importantly, we provide reproducible and commented code in Stata, R and Python for researchers to apply in their own observational study.  
-Available at https://arxiv.org/abs/2012.09920  "  
+summary = "In this tutorial the computational we show the implementation of different causal inference estimators from a historical perspective where different estimators were developed to overcome the limitations of the previous one. Furthermore, we also briefly introduce the potential outcomes framework, illustrate the use of different methods using an illustration from the health care setting, and most importantly, we provide reproducible and commented code in Stata, R and Python for researchers to apply in their own observational study. Available at https://arxiv.org/abs/2012.09920"  
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "1.png"
