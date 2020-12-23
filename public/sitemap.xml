@@ -140,6 +140,15 @@
     
     <url>
     
+      <loc>https://maluque.netlify.com/project/cci/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://maluque.netlify.com/project/cvauroc/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
@@ -170,6 +179,16 @@
     
       <loc>https://maluque.netlify.com/publication_types/3/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://maluque.netlify.com/tags/cci/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -268,7 +287,7 @@
     <url>
     
       <loc>https://maluque.netlify.com/tags/</loc>
-      <lastmod>2018-08-21T00:00:00+00:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
