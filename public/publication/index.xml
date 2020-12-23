@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Tutorial: computational causal inference for applied researchers</title>
+      <link>https://maluque.netlify.com/publication/cci/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.com/publication/cci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Using longitudinal targeted maximum likelihood estimation in complex settings with dynamic interventions</title>
       <link>https://maluque.netlify.com/publication/ltmle/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>

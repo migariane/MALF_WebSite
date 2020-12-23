@@ -1,5 +1,5 @@
 +++
-title = "utorial: computational causal inference for applied researchers"
+title = "Tutorial: computational causal inference for applied researchers"
 date = "2020-12-21"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
