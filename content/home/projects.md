@@ -50,9 +50,5 @@ filter_default = 0
   name = "HETMOR"
   tag = ".hetmor"
 
-[[filter]]
-  name = "CCI"
-  tag = ".cci"
-  
 +++
 
