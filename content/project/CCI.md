@@ -15,7 +15,7 @@ image_preview = "1.png"
 tags = ["CCI"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link = "Available at https://arxiv.org/abs/2012.09920"
 
 # Does the project detail page use math formatting?
 math = false
