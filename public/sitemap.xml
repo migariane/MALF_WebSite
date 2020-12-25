@@ -187,8 +187,7 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/tags/cci/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>https://maluque.netlify.com/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -197,7 +196,8 @@
     
     <url>
     
-      <loc>https://maluque.netlify.com/categories/</loc>
+      <loc>https://maluque.netlify.com/tags/cci/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

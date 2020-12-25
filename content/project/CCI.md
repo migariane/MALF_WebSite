@@ -12,7 +12,7 @@ summary = "In this tutorial the computational we show the implementation of diff
 image_preview = "1.png"
 
 # Tags: can be used for filtering projects.
-tags = ["CCI"]
+tags = ["cci"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "Available at https://arxiv.org/abs/2012.09920"
