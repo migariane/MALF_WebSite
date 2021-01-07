@@ -23,6 +23,8 @@ I am a Distance Learning Module Organizer for the MSc in Epidemiology at the LSH
 
 - Introduction to Causal Inference and the Potential Outcomes Framework: https://ccci.netlify.com/  
 
+- Computational Casusal Inference and Estimation using STATA (LSHTM): https://migariane.github.io/CIM.html
+
 Also, I am developing software for teaching and scientific interests:  
 
 - [Link to Software](https://scholar.harvard.edu/malf/software-0)
