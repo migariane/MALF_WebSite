@@ -32,7 +32,7 @@ weight = 5
   year = 2023
   
 [[education.courses]]
-  course = "MSc in Data Science"
+  course = "MSc in Data Science & Business Analytics"
   institution = "Nebrija University & INDRA, Spain"
   year = 2022  
   
