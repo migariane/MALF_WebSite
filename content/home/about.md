@@ -29,7 +29,12 @@ weight = 5
 [[education.courses]]
   course = "BSc in Mathematics and Statistics"
   institution = "Open University, UK"
-  year = 2022
+  year = 2023
+  
+[[education.courses]]
+  course = "MSc in Data Science"
+  institution = "Nebrija University & INDRA, Spain"
+  year = 2022  
   
 [[education.courses]]
   course = "University Certificate in Biostatistics"
