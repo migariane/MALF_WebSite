@@ -40,16 +40,16 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Miguel-Angel Luque-Fernandez"
-  role = "Senior Scientific Researcher of Epidemiology and Biostatistics (ISCIII, Spain). Assistant Professor (Honorary) of Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist Collaborator at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the University Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics)."
+  role = "Associate Professor of Biostatistics, Department of Statistics and Operations Research, Uniersity of Granada, Granada, Spain. Former Senior Scientific Researcher of Epidemiology and Biostatistics (ISCIII, Spain). Associate Professor (Honorary) of Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist Collaborator at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the University Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics)."
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Biomedical Research Institute of Granada (Andalusian School of Public Health, Miguel Servet I Award from the Carlos III Institute of Health)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.ac.be/rech/inventaire/chercheurs/9/CH14549.html" } ]
+  organizations = [{ name = "Universidad de Granada (Department of Statistics and Operations Research)", url = "https://www.ugr.es/en/staff/miguel-angel-luque-fernandez" },{ name = "Biomedical Research Institute of Granada (Andalusian School of Public Health, Miguel Servet I Award from the Carlos III Institute of Health)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.be/fr/miguel-angel-luque-fernandez-1" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "miguel.luque.easp  at juntadeandalucia.es"
-  address = "Andalusian School of Public Health, 18010 Cuesta del Observatorio 4, Granada, Spain"
+  email = "mluquefe at ugr.es"
+  address = " Facultad de Ciencias Avenida de la Fuente Nueva S/N, 18071, Granada, Spain"
   office_hours = "Friday 8:00 to 10:00 or email for appointment"
   phone = "0034 677 903 936"
   skype = "watzilei"
