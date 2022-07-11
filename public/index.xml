@@ -244,24 +244,22 @@ To illustrate with an educational purpose the effect of conditioning on a collid
     </item>
     
     <item>
+      <title>The Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial.</title>
+      <link>https://maluque.netlify.com/talk/example-talk4/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://maluque.netlify.com/talk/example-talk4/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Ensemble Learning for Model Prediction in Cancer Epidemiology</title>
       <link>https://maluque.netlify.com/project/elmpce/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://maluque.netlify.com/project/elmpce/</guid>
       <description>&lt;p&gt;I am developing a cutting edge approach to evaluate and calibrate the performance of new and classic cancer comorbodity index such as the Charlson&amp;rsquo;s comorbidity score. Using a logistic model impose stringent constraints on the association between the explanatory variables and risk of death. For instance, the main-term logistic regression typically relies on a linear and additive relationship between a pre-specified transformation of the mean outcome and its predictors. Given the complex relationship between cancer mortality and comorbidity, the predictive power might be low if an incorrect parametric model is used as opposed to a more flexible option. I am using Data adaptive ensemble learning methods based on the Super Learner as a method for variable selection via cross-validation to select the optimum regression algorithm among all weighted combinations of a set of candidate machine learning algorithms. I am using different machine learning algorithms (Generalized Linear Models, Regression Trees, Bayesian Additive Regression Trees, Gradient Boosting, Generalized Additive Models, Stepwise Regression, Bayesian GLM, Lasso regression, Ridge Regression, Random Forest, Polynomial Spline Regression, and Bagging Classifier Trees). Then using cross-validation techniques I split the data into the mutually exclusive and exhaustive blocks of roughly equal size. Each algorithm is then fitted with nine blocks (the training set) and used to predict mortality for patients in the remaining block (the validation set). Finally, I calculate the mean squared error (MSE) between predicted and recorded mortality outcome comparing classical methods for prediction, machine learning and ensemble learning techniques.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Targeted Maximum Likelihood Estimation: A Tutorial for Applied Researchers</title>
-      <link>https://maluque.netlify.com/project/tmle/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://maluque.netlify.com/project/tmle/</guid>
-      <description>&lt;p&gt;When estimating the average treatment effect for a binary or continuous outcome, methods that incorporate propensity scores, the G-formula, or Targeted Maximum Likelihood Estimation (TMLE) are preferred over naïve regression approaches which often lead misspecified models. Some methods require correct specification of the outcome model, whereas other methods require correct specification of the exposure model. Doubly-robust methods only require correct specification of one of these models. TMLE is a semiparametric doubly-robust method that enhances correct model specification by allowing flexible estimation using non-parametric machine-learning methods and requires weaker assumptions than its competitors. We provide a step-by-step guided implementation of TMLE and illustrate it in a realistic scenario based on cancer epidemiology where assumptions about correct model specification and positivity (i.e., when a study participant had zero probability of receiving the treatment) are nearly violated. This tutorial (&lt;a href=&#34;https://github.com/migariane/MALF&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/MALF&lt;/a&gt;) provides a concise and reproducible educational introduction to TMLE for a binary outcome and exposure. The reader should gain sufficient understanding of TMLE from this introductory tutorial to be able to apply the method in practice. Extensive R-code is provided in easy-to-read boxes throughout the article for replicability. Stata users will find a testing implementation of TMLE and additional material in the appendix and at the following GitHub repository: &lt;a href=&#34;https://github.com/migariane/SIM-TMLE-tutorial&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/SIM-TMLE-tutorial&lt;/a&gt;&lt;br /&gt;
-    Alternatively, readers can visit the following link where I provide a little bit more informal but interactive and reproducible TMLE tutorial using Rmarkdown. Furthermore, readers will gain more insights regarding the derivation of the Wald type confidence intervals based on the Functional Delta Method:
-    &lt;a href=&#34;https://migariane.github.io/TMLE.nb.html&#34; target=&#34;_blank&#34;&gt;https://migariane.github.io/TMLE.nb.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

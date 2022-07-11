@@ -12,7 +12,7 @@ summary = "Approximate statistical inference via determination of the asymptotic
 image_preview = "2.png"
 
 # Tags: can be used for filtering projects.
-tags = ["DMIF"]
+tags = ["dmif"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "Available at https://arxiv.org/abs/2206.15310"
