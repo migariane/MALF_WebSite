@@ -11,6 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>TThe Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial</title>
+      <link>https://maluque.netlify.com/project/dmif/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.com/project/dmif/</guid>
+      <description>&lt;p&gt;Given that a smooth function of an asymptotically normal estimator is also asymptotically normally distributed, the Delta-method allows approximating the large-sample variance of a function of an estimator with known large-sample properties. In a more general setting, it is a technique for approximating the variance of a functional (i.e., an estimand) that takes a function as an input and applies another function to it (e.g. the expectation function). Specifically, we may approximate the variance of the function using the functional Delta-method based on the influence function (IF). The IF explores how a functional ϕ(θ) changes in response to small perturbations in the sample distribution of the estimator and allows computing the empirical standard error of the distribution of the functional. The ongoing development of new methods and techniques may pose a challenge for applied statisticians who are interested in mastering the application of these methods. In this tutorial, we review the use of the classical and functional Delta-method and their links to the IF from a practical perspective. We illustrate the methods using a cancer epidemiology example and we provide reproducible and commented code in R and Python using symbolic programming. The code can be accessed at&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/migariane/DeltaMethodInfluenceFunction&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/DeltaMethodInfluenceFunction&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;KEYWORDS: Causal Inference; Statistical Inference; Influence Function; Delta Method; Epidemiology; Statistics; Tutorial&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: computational causal inference for applied researchers</title>
+      <link>https://maluque.netlify.com/publication/dmif/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.com/publication/dmif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tutorial: computational causal inference for applied researchers</title>
       <link>https://maluque.netlify.com/publication/cci/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
@@ -239,32 +262,6 @@ To illustrate with an educational purpose the effect of conditioning on a collid
       <description>&lt;p&gt;When estimating the average treatment effect for a binary or continuous outcome, methods that incorporate propensity scores, the G-formula, or Targeted Maximum Likelihood Estimation (TMLE) are preferred over naïve regression approaches which often lead misspecified models. Some methods require correct specification of the outcome model, whereas other methods require correct specification of the exposure model. Doubly-robust methods only require correct specification of one of these models. TMLE is a semiparametric doubly-robust method that enhances correct model specification by allowing flexible estimation using non-parametric machine-learning methods and requires weaker assumptions than its competitors. We provide a step-by-step guided implementation of TMLE and illustrate it in a realistic scenario based on cancer epidemiology where assumptions about correct model specification and positivity (i.e., when a study participant had zero probability of receiving the treatment) are nearly violated. This tutorial (&lt;a href=&#34;https://github.com/migariane/MALF&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/MALF&lt;/a&gt;) provides a concise and reproducible educational introduction to TMLE for a binary outcome and exposure. The reader should gain sufficient understanding of TMLE from this introductory tutorial to be able to apply the method in practice. Extensive R-code is provided in easy-to-read boxes throughout the article for replicability. Stata users will find a testing implementation of TMLE and additional material in the appendix and at the following GitHub repository: &lt;a href=&#34;https://github.com/migariane/SIM-TMLE-tutorial&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/SIM-TMLE-tutorial&lt;/a&gt;&lt;br /&gt;
     Alternatively, readers can visit the following link where I provide a little bit more informal but interactive and reproducible TMLE tutorial using Rmarkdown. Furthermore, readers will gain more insights regarding the derivation of the Wald type confidence intervals based on the Functional Delta Method:
     &lt;a href=&#34;https://migariane.github.io/TMLE.nb.html&#34; target=&#34;_blank&#34;&gt;https://migariane.github.io/TMLE.nb.html&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tutorial: computational causal inference for applied researchers</title>
-      <link>https://maluque.netlify.com/project/cci/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://maluque.netlify.com/project/cci/</guid>
-      <description>&lt;p&gt;The purpose of many health studies is to estimate the effect of an exposure on an outcome. It is not always ethical to assign an exposure to individuals in randomised controlled trials, instead observational data and appropriate study design must be used. There are major challenges with observational studies, one of which is confounding that can lead to biased estimates of the causal effects. Controlling for confounding is commonly performed by simple adjustment for measured confounders; although, often this is not enough. Recent advances in the field of causal inference have dealt with confounding by building on classical standardisation methods. However, these recent advances have progressed quickly with a relative paucity of computational-oriented applied tutorials contributing to some confusion in the use of these methods among applied researchers. In this tutorial, we show the computational implementation of different causal inference estimators from a historical perspective where different estimators were developed to overcome the limitations of the previous one. Furthermore, we also briefly introduce the potential outcomes framework, illustrate the use of different methods using an illustration from the health care setting, and most importantly, we provide reproducible and commented code in Stata, R and Python for researchers to apply in their own observational study. The code can be accessed at&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/migariane/TutorialCausalInferenceEstimators&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/TutorialCausalInferenceEstimators&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;KEYWORDS: Causal Inference; Regression adjustment; G-methods; G-formula; Propensity score; Inverse probability weighting; Double-robust methods; Machine learning; Targeted maximum likelihood estimation; Epidemiology; Statistics; Tutorial&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>cvAUROC</title>
-      <link>https://maluque.netlify.com/project/cvauroc/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://maluque.netlify.com/project/cvauroc/</guid>
-      <description>&lt;p&gt;Receiver operating characteristic (ROC) analysis is used for comparing predictive models, both in model selection and model evaluation. This method is often applied in clinical medicine and social science to assess the tradeoff between model sensitivity and specificity. After fitting a binary logistic regression model with a set of independent variables, the predictive performance of this set of variables -as assessed by the area under the curve (AUC) from a ROC curve- must be estimated for a sample (the test sample) that is independent of the sample used to predict the dependent variable (the training sample). An important aspect of predictive modeling (regardless of model type) is the ability of a model to generalize to new cases. Evaluating the predictive performance (AUC) of a set of independent variables using all cases from the original analysis sample tends to result in an overly optimistic estimate of predictive performance. K-fold cross-validation can be used to generate a more realistic estimate of predictive performance. To assess this ability in situations in which the number of observations is not very large, cross-validation and bootstrap strategies are useful. cvAUROC implements is a Stata program that implements k-fold cross-validation for the AUC for a binary outcome after fitting a logistic regression model.&lt;br /&gt;
-1. &lt;a href=&#34;https://ideas.repec.org/c/boc/bocode/s458324.html&#34; target=&#34;_blank&#34;&gt;https://ideas.repec.org/c/boc/bocode/s458324.html&lt;/a&gt;&lt;br /&gt;
-2. &lt;a href=&#34;https://github.com/migariane/cvAUROC&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/cvAUROC&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

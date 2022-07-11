@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Miguel Angel Luque Fernandez</copyright>
-    <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TThe Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial</title>
+      <link>https://maluque.netlify.com/project/dmif/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.com/project/dmif/</guid>
+      <description>&lt;p&gt;Given that a smooth function of an asymptotically normal estimator is also asymptotically normally distributed, the Delta-method allows approximating the large-sample variance of a function of an estimator with known large-sample properties. In a more general setting, it is a technique for approximating the variance of a functional (i.e., an estimand) that takes a function as an input and applies another function to it (e.g. the expectation function). Specifically, we may approximate the variance of the function using the functional Delta-method based on the influence function (IF). The IF explores how a functional ϕ(θ) changes in response to small perturbations in the sample distribution of the estimator and allows computing the empirical standard error of the distribution of the functional. The ongoing development of new methods and techniques may pose a challenge for applied statisticians who are interested in mastering the application of these methods. In this tutorial, we review the use of the classical and functional Delta-method and their links to the IF from a practical perspective. We illustrate the methods using a cancer epidemiology example and we provide reproducible and commented code in R and Python using symbolic programming. The code can be accessed at&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/migariane/DeltaMethodInfluenceFunction&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/DeltaMethodInfluenceFunction&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;KEYWORDS: Causal Inference; Statistical Inference; Influence Function; Delta Method; Epidemiology; Statistics; Tutorial&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>HETMOR</title>

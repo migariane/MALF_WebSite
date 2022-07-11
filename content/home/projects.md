@@ -54,5 +54,9 @@ filter_default = 0
   name = "CCI"
   tag = ".cci"
 
+[[filter]]
+  name = "DMIF"
+  tag = ".dmif" 
+
 +++
 
