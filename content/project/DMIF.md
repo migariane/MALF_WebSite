@@ -3,7 +3,7 @@
 date = "2022-07-11"
 
 # Project title.
-title = "TThe Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial"
+title = "The Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial."
 
 # Project summary to display on homepage.
 summary = "Approximate statistical inference via determination of the asymptotic distribution of a statistic is routinely used for inference in applied medical statistics (e.g. to estimate the standard error of the marginal or conditional risk ratio). One method for variance estimation is the classical Delta-method but there is a knowledge gap as this method is not routinely included in training for applied medical statistics and its uses are not widely understood."    
