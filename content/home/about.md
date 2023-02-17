@@ -34,7 +34,7 @@ weight = 5
 [[education.courses]]
   course = "MSc in Data Science & Business Analytics"
   institution = "Nebrija University & INDRA, Spain"
-  year = 2022  
+  year = 2023  
   
 [[education.courses]]
   course = "University Certificate in Biostatistics"
