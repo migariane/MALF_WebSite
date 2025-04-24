@@ -21,19 +21,19 @@ I am a Distance Learning Module Organizer for the MSc in Epidemiology at the LSH
 
 - Short Course: Introduction to Survival Analysis in Cancer Epidemiology: https://github.com/migariane/SVA-ULB
 
-- Introduction to Causal Inference and the Potential Outcomes Framework: https://ccci.netlify.com/  
+- Introduction to Causal Inference and the Potential Outcomes Framework: https://ccci.netlify.app/  
 
 - Computational Casusal Inference and Estimation using STATA (LSHTM): https://migariane.github.io/CIM.html
 
 Also, I am developing software for teaching and scientific interests:  
 
-- [Link to Software](https://scholar.harvard.edu/malf/software-0)
+- [Link to Software](https://migariane.github.io/)
 
-- [Shiny App: Parametrical Survival Distributions](http://watzilei.com/shiny/Pardist/)
+- [Shiny App: Parametrical Survival Distributions](https://watzile.shinyapps.io/miguel_angel_luque_fernandez/)
 
-- [Shiny App: Colliders in Epidemiology](http://watzilei.com/shiny/collider/)
+- [Shiny App: Colliders in Epidemiology](https://watzile.shinyapps.io/EpiCollider/)
 
-- [Shiny App: Expected Date of Delivery](http://watzilei.com/shiny/EDL/)
+- [Shiny App: Expected Date of Delivery](https://watzile.shinyapps.io/dateofdelivery__/)
 
 - [Shiny App: Cancer comorbidities](http://watzilei.com/shiny/CoMCoR/)
 
