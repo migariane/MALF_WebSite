@@ -19,8 +19,9 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS" ]
-  section = [ "HTML", "RSS" ]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
 
 # Configure BlackFriday Markdown rendering.
 # See: https://gohugo.io/readfiles/bfconfig/
