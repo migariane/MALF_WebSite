@@ -14,15 +14,6 @@
 - id: minute_read
   translation: min de lectura
 
-- id: previous
-  translation: Anterior
-
-- id: next
-  translation: Siguiente
-
-- id: figure
-  translation: "Figura %d:"
-
 # Buttons
 
 - id: btn_preprint
@@ -147,14 +138,3 @@
 
 - id: 404_recommendations
   translation: ¿Buscabas una de éstas?
-
-# Cookie consent
-
-- id: cookie_message
-  translation: Este sitio web utiliza cookies para garantizarle una mejor experiencia.
-
-- id: cookie_dismiss
-  translation: Entendido!
-
-- id: cookie_learn
-  translation: Más información

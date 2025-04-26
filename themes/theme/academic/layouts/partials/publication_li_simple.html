@@ -1,10 +1,43 @@
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <a href="{{ .Permalink }}" itemprop="name">{{ .Title }}</a>
-  <div itemprop="author">
-    {{ with .Params.authors }}
-      {{- delimit . ", " | markdownify -}}
-    {{- end -}}
+<div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+	<div class="col-xs-12 col-md-12" style="margin: 0 0 10px 0" >  
+	<div class="col-xs-12 col-md-2">
+		{{ if .Params.image_preview }}
+		<a href="{{ .Permalink }}">  	
+		<img class="pub-repr-img pub-img-rounded" src="{{ "/img/" | relURL }}{{ .Params.image_preview }}" itemprop="image"/>
+		</a>
+		{{ end }}
+ 	</div>
+  	<div class="col-xs-12 col-md-10">
+	  <a style="color: rgba(0.0,0,0,0.8)" href="{{ .Permalink }}" itemprop="name">{{ .Title }}</a>
+	  <div itemprop="author">
+	    {{ $len := (add (len .Params.authors) -2) }}
+	     {{ range $index, $curr := .Params.authors }}
+	       {{ $contact := (where $.Site.Params.authors "name" $curr) }}
+	       {{ if $contact }}         
+		{{ range $contact }}
+		{{ if le $index $len }}
+		   <a href="{{ .website }}">{{ .name -}}</a>,
+	       	 {{ else }}
+		   <a href="{{ .website }}">{{ .name -}}</a>
+		 {{ end }}
+		{{ end }}
+	       {{ else }}
+		 {{ if le $index $len }}
+		   {{ $curr }},
+	       	 {{ else }}
+		   {{ $curr }}
+		 {{ end }}
+	       {{ end }}
+	     {{ end }}
+	  </div>
+	  <div class="pub-publication" style="color: #090">
+		{{ if .Params.publication_short }}
+		{{ .Params.publication_short | markdownify }}
+		{{ else }}
+		{{ .Params.publication | markdownify }}
+		{{ end }}
+	  </div>
+	  <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p>
+	</div>
   </div>
-  <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p>
 </div>
