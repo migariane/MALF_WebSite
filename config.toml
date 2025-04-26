@@ -44,14 +44,14 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [{ name = "Universidad de Granada (Department of Statistics and Operations Research)", url = "https://www.ugr.es/en/staff/miguel-angel-luque-fernandez" },{ name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque-fernandez.miguel-angel" }]
+  organizations = [ { name = "Universidad de Granada (Department of Statistics and Operations Research)", url = "https://www.ugr.es/en/staff/miguel-angel-luque-fernandez" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque-fernandez.miguel-angel"} ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "mluquefe at ugr.es"
   address = " Facultad de Ciencias Avenida de la Fuente Nueva S/N, 18071, Granada, Spain"
   office_hours = "Friday 8:00 to 10:00 or email for appointment"
-  phone = "0034 677 903 936"
+  phone = ""
   skype = "watzilei"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -204,7 +204,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:watzilei@hotmail.com"
+    link = "mailto:mluquefe@ugr.es"
 
   [[params.social]]
     icon = "twitter"
