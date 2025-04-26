@@ -273,4 +273,6 @@ defaultContentLanguageInSubdir = false
   [Languages.en]
   languageCode = "en-us"
 
-
+[build]
+  command = "rm -rf .netlify/plugins/node_modules && hugo --gc --minify" # Adjust your Hugo build command as needed
+  publish = "public"
