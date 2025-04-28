@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elmpce on MALF</title>
+    <link>https://maluque.netlify.app/tags/elmpce/</link>
+    <description>Recent content in Elmpce on MALF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/elmpce/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ensemble Learning for Model Prediction in Cancer Epidemiology</title>
+      <link>https://maluque.netlify.app/project/elmpce/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.app/project/elmpce/</guid>
+      <description>&lt;p&gt;I am developing a cutting edge approach to evaluate and calibrate the performance of new and classic cancer comorbodity index such as the Charlson&amp;rsquo;s comorbidity score. Using a logistic model impose stringent constraints on the association between the explanatory variables and risk of death. For instance, the main-term logistic regression typically relies on a linear and additive relationship between a pre-specified transformation of the mean outcome and its predictors. Given the complex relationship between cancer mortality and comorbidity, the predictive power might be low if an incorrect parametric model is used as opposed to a more flexible option. I am using Data adaptive ensemble learning methods based on the Super Learner as a method for variable selection via cross-validation to select the optimum regression algorithm among all weighted combinations of a set of candidate machine learning algorithms. I am using different machine learning algorithms (Generalized Linear Models, Regression Trees, Bayesian Additive Regression Trees, Gradient Boosting, Generalized Additive Models, Stepwise Regression, Bayesian GLM, Lasso regression, Ridge Regression, Random Forest, Polynomial Spline Regression, and Bagging Classifier Trees). Then using cross-validation techniques I split the data into the mutually exclusive and exhaustive blocks of roughly equal size. Each algorithm is then fitted with nine blocks (the training set) and used to predict mortality for patients in the remaining block (the validation set). Finally, I calculate the mean squared error (MSE) between predicted and recorded mortality outcome comparing classical methods for prediction, machine learning and ensemble learning techniques.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

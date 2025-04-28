@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cvauroc on MALF</title>
+    <link>https://maluque.netlify.app/tags/cvauroc/</link>
+    <description>Recent content in Cvauroc on MALF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/cvauroc/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>cvAUROC</title>
+      <link>https://maluque.netlify.app/project/cvauroc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.app/project/cvauroc/</guid>
+      <description>&lt;p&gt;Receiver operating characteristic (ROC) analysis is used for comparing predictive models, both in model selection and model evaluation. This method is often applied in clinical medicine and social science to assess the tradeoff between model sensitivity and specificity. After fitting a binary logistic regression model with a set of independent variables, the predictive performance of this set of variables -as assessed by the area under the curve (AUC) from a ROC curve- must be estimated for a sample (the test sample) that is independent of the sample used to predict the dependent variable (the training sample). An important aspect of predictive modeling (regardless of model type) is the ability of a model to generalize to new cases. Evaluating the predictive performance (AUC) of a set of independent variables using all cases from the original analysis sample tends to result in an overly optimistic estimate of predictive performance. K-fold cross-validation can be used to generate a more realistic estimate of predictive performance. To assess this ability in situations in which the number of observations is not very large, cross-validation and bootstrap strategies are useful. cvAUROC implements is a Stata program that implements k-fold cross-validation for the AUC for a binary outcome after fitting a logistic regression model.&lt;br /&gt;
+1. &lt;a href=&#34;https://ideas.repec.org/c/boc/bocode/s458324.html&#34; target=&#34;_blank&#34;&gt;https://ideas.repec.org/c/boc/bocode/s458324.html&lt;/a&gt;&lt;br /&gt;
+2. &lt;a href=&#34;https://github.com/migariane/cvAUROC&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/cvAUROC&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
