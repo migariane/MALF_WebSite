@@ -1,6 +1,6 @@
 # Miguel Angel Luque Fernandez, BSc, MA, MPH, MSc, PhD
-My Academic Website: [MALF](https://maluque.netlify.com)  
-https://maluque.netlify.com/  
+My Academic Website: [MALF](https://www.ugr.es/~mluquefe/)  
+https://www.ugr.es/~mluquefe/  
   
  I received my PhD in Preventive Medicine (Epidemiology) and Public Health, awarded Summa Cum Laude, from the University of Granada (UGR, Spain) and the ULB (Universite Libre de Bruxelles, Belgium). Also, I hold an MSc in Biostatistics from the University of Newcastle, Australia, an MSc in Epidemiology from the ULB and an MPH and health management from the UGR. After the completion of my Ph.D. in 2010, I moved to the Center for Infectious Disease Epidemiology and Research (University of Cape Town) as a postdoctoral fellow for two years. Afterwards, I moved to the Harvard School of Public Health (Department of Epidemiology), where I specialized in epidemiological methods from 2012 to 2015. I have also been trained as an Epidemic Intelligence Officer (EIS), and I worked as a field epidemiologist for several years in different African countries with Médecins Sans Frontières and GOARN-WHO during the Cholera epidemic in Haiti, 2010. 
 

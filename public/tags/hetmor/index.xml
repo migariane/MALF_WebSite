@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hetmor on MALF</title>
+    <link>https://www.ugr.es/~mluquefe/tags/hetmor/</link>
+    <description>Recent content in hetmor on MALF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ugr.es/~mluquefe/tags/hetmor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HETMOR</title>
+      <link>https://www.ugr.es/~mluquefe/project/hetmor/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/project/hetmor/</guid>
+      <description>Effect modification and collapsibility when estimating the effect of public health interventions: A Monte-Carlo Simulation comparing classical multivariable regression adjustment versus the G-Formula based on a cancer epidemiology illustration: The American Journal of Public Health series Evaluating Public Health Interventions offers excellent practical guidance to researchers in public health.  In the 8 part of the series, a valuable introduction to effect estimation of time-invariant public health interventions was given. The authors of this article suggested that in terms of bias and efficiency there is no advantage of using modern causal inference methods over classical multivariable regression modeling. However, this statement is not always true. Most importantly, both &lt;strong&gt;effect modification&lt;/strong&gt; and &lt;strong&gt;collapsibility&lt;/strong&gt; are important concepts when assessing the validity of using regression for causal effect estimation (&lt;a href=&#34;https://github.com/migariane/hetmor/blob/master/README.md&#34;&gt;https://github.com/migariane/hetmor/blob/master/README.md&lt;/a&gt;)</description>
+    </item>
+    
+  </channel>
+</rss>

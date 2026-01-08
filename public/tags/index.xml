@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on MALF</title>
+    <link>https://www.ugr.es/~mluquefe/tags/</link>
+    <description>Recent content in Tags on MALF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ugr.es/~mluquefe/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dmif</title>
+      <link>https://www.ugr.es/~mluquefe/tags/dmif/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/tags/dmif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hetmor</title>
+      <link>https://www.ugr.es/~mluquefe/tags/hetmor/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/tags/hetmor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>collider</title>
+      <link>https://www.ugr.es/~mluquefe/tags/collider/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/tags/collider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cci</title>
+      <link>https://www.ugr.es/~mluquefe/tags/cci/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/tags/cci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cvauroc</title>
+      <link>https://www.ugr.es/~mluquefe/tags/cvauroc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/tags/cvauroc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elmpce</title>
+      <link>https://www.ugr.es/~mluquefe/tags/elmpce/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/tags/elmpce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TMLE</title>
+      <link>https://www.ugr.es/~mluquefe/tags/tmle/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/tags/tmle/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

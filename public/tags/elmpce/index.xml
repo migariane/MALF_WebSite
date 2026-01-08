@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elmpce on MALF</title>
+    <link>https://www.ugr.es/~mluquefe/tags/elmpce/</link>
+    <description>Recent content in elmpce on MALF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ugr.es/~mluquefe/tags/elmpce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ensemble Learning for Model Prediction in Cancer Epidemiology</title>
+      <link>https://www.ugr.es/~mluquefe/project/elmpce/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ugr.es/~mluquefe/project/elmpce/</guid>
+      <description>To improve model selection and prediction in cancer epidemiology data adaptive ensemble learning methods based on the Super Learner as a method for variable selection via cross-validation are suitable. To selection of the optimal regression algorithm among all weighted combinations of a set of candidate machine learning algorithms the ensemble learning method improves model accuracy and prediction.</description>
+    </item>
+    
+  </channel>
+</rss>
