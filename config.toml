@@ -1,4 +1,4 @@
-baseurl = "https://www.ugr.es/~mluquefe/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://maluque.netlify.app/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "MALF"
 copyright = "&copy; 2022 Miguel Angel Luque Fernandez"
 theme = "theme/academic"
