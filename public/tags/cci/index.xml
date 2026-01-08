@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cci on MALF</title>
+    <link>https://maluque.netlify.app/tags/cci/</link>
+    <description>Recent content in cci on MALF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://maluque.netlify.app/tags/cci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial: computational causal inference for applied researchers</title>
+      <link>https://maluque.netlify.app/project/cci/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.app/project/cci/</guid>
+      <description>In this tutorial the computational we show the implementation of different causal inference estimators from a historical perspective where different estimators were developed to overcome the limitations of the previous one. Furthermore, we also briefly introduce the potential outcomes framework, illustrate the use of different methods using an illustration from the health care setting, and most importantly, we provide reproducible and commented code in Stata, R and Python for researchers to apply in their own observational study. Available at &lt;a href=&#34;https://arxiv.org/abs/2012.09920&#34;&gt;https://arxiv.org/abs/2012.09920&lt;/a&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

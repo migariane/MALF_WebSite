@@ -14,7 +14,7 @@ authors = ["Miguel Angel Luque-Fernandez", "Michael Schomaker", "Bernard Rachet"
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["3"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 publication = "Statistics in Medicine, SIM."

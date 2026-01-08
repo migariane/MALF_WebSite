@@ -29,22 +29,15 @@
   {{ i18n "btn_dataset" }}
 </a>
 {{ end }}
-{{ if $.Params.projects }}
-{{ range $.Params.projects }}
-  {{ with ($.Site.GetPage "page" "project" .) }}
-  <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ .Permalink }}">
-    {{ i18n "btn_project" }}
-  </a>
-  {{ else }}
-    {{ errorf "The `projects` parameter in `content/%s` references a project file, `content/project/%s`, which cannot be found. Please either set `projects = []` or fix the reference." $.File.Path . }}
+{{ if .Params.projects }}
+  {{ range .Params.projects }}
+    {{ $project := $.Site.GetPage (printf "/project/%s" .) }}
+    {{ if $project }}
+      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ $project.RelPermalink }}">
+        {{ i18n "project" }}
+      </a>
+    {{ end }}
   {{ end }}
-{{ end }}
-{{ else }}
-{{ with $.Params.url_project }}
-<a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absLangURL }}" target="_blank" rel="noopener">
-  {{ i18n "btn_project" }}
-</a>
-{{ end }}
 {{ end }}
 {{ with $.Params.url_poster }}
 <a class="btn btn-primary btn-outline{{ if $is_list }} btn-xs{{end}}" href="{{ . | absURL }}" target="_blank" rel="noopener">

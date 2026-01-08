@@ -1,0 +1,40 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MALF on MALF</title>
+    <link>https://maluque.netlify.app/</link>
+    <description>Recent content in MALF on MALF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Projects</title>
+      <link>https://maluque.netlify.app/project/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.app/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://maluque.netlify.app/publication/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.app/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://maluque.netlify.app/talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.app/talk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

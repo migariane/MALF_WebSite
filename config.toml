@@ -9,12 +9,12 @@ preserveTaxonomyNames = true
 paginate = 10
 
 [build.environment]
-  HUGO_VERSION = "0.55.6"
+  HUGO_VERSION = "0.88.1"
   HUGO_EXTENDED = "true"
 
 [build]
   publish = "public"
-  command = "hugo"
+  command = "hugo --buildFuture"
 
 [context.production.processing]
   skip_processing = false

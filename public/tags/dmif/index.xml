@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dmif on MALF</title>
+    <link>https://maluque.netlify.app/tags/dmif/</link>
+    <description>Recent content in dmif on MALF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://maluque.netlify.app/tags/dmif/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial.</title>
+      <link>https://maluque.netlify.app/project/dmif/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://maluque.netlify.app/project/dmif/</guid>
+      <description>Approximate statistical inference via determination of the asymptotic distribution of a statistic is routinely used for inference in applied medical statistics (e.g. to estimate the standard error of the marginal or conditional risk ratio). One method for variance estimation is the classical Delta-method but there is a knowledge gap as this method is not routinely included in training for applied medical statistics and its uses are not widely understood.</description>
+    </item>
+    
+  </channel>
+</rss>
