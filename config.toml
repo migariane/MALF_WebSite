@@ -142,6 +142,7 @@ defaultContentLanguageInSubdir = false
   #   (relative to /static/css and /static/js respectively)
   custom_css = "static/css"
   custom_js  = "static/js"
+  custom_css = "styles.css"
 
   # Publication types.
   #   Used to categorize publications.
