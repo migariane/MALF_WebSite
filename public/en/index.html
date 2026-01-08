@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -13,14 +15,10 @@
   
   
   
-    
-      
-    
-  
-  <meta name="description" content="cvAUROC is a Stata program that implements k-fold cross-validation for the AUC for a binary outcome after fitting a logistic regression model. Evaluating the predictive performance (AUC) of a set of independent variables using all cases from the original analysis sample tends to result in an overly optimistic estimate of predictive performance. K-fold cross-validation can be used to generate a more realistic estimate of predictive performance.">
+  <meta name="description" content="Senior Scientific Researcher of Epidemiology and Biostatistics (ISCIII, Spain). Assistant Professor (Honorary) of Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist Collaborator at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the University Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics).">
 
   
-  <link rel="alternate" hreflang="en-us" href="/project/cvauroc/">
+  <link rel="alternate" hreflang="en-us" href="/en/">
 
   
 
@@ -63,15 +61,15 @@
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="MALF">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="MALF">
+  <link rel="alternate" href="/en/index.xml" type="application/rss+xml" title="MALF">
+  <link rel="feed" href="/en/index.xml" type="application/rss+xml" title="MALF">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/project/cvauroc/">
+  <link rel="canonical" href="/en/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -79,20 +77,18 @@
   <meta property="twitter:creator" content="@watzilei">
   
   <meta property="og:site_name" content="MALF">
-  <meta property="og:url" content="/project/cvauroc/">
-  <meta property="og:title" content="cvAUROC | MALF">
-  <meta property="og:description" content="cvAUROC is a Stata program that implements k-fold cross-validation for the AUC for a binary outcome after fitting a logistic regression model. Evaluating the predictive performance (AUC) of a set of independent variables using all cases from the original analysis sample tends to result in an overly optimistic estimate of predictive performance. K-fold cross-validation can be used to generate a more realistic estimate of predictive performance.">
+  <meta property="og:url" content="/en/">
+  <meta property="og:title" content=" | MALF">
+  <meta property="og:description" content="Senior Scientific Researcher of Epidemiology and Biostatistics (ISCIII, Spain). Assistant Professor (Honorary) of Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist Collaborator at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the University Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics).">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
   
 
   
   
 
-  <title>cvAUROC | MALF</title>
+  <title> | MALF</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -245,105 +241,22 @@
 </nav>
 
 
-<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+
+
+<div class="universal-wrapper">
+
+  
+
+  
+
+  
+  
 
   
 
 
-  <div class="article-container">
-
-    <div class="pub-title">
-      <h1 itemprop="name">cvAUROC</h1>
-      <span class="pub-authors" itemprop="author">&nbsp;</span>
-      <span class="pull-right">
-        
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=cvAUROC&amp;url=%2fproject%2fcvauroc%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fproject%2fcvauroc%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2fcvauroc%2f&amp;title=cvAUROC"
-         target="_blank" rel="noopener">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fproject%2fcvauroc%2f&amp;title=cvAUROC"
-         target="_blank" rel="noopener">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=cvAUROC&amp;body=%2fproject%2fcvauroc%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
 </div>
-
-
-      </span>
-    </div>
-
-    
-
-    <div class="article-style" itemprop="articleBody">
-      <p>Receiver operating characteristic (ROC) analysis is used for comparing predictive models, both in model selection and model evaluation. This method is often applied in clinical medicine and social science to assess the tradeoff between model sensitivity and specificity. After fitting a binary logistic regression model with a set of independent variables, the predictive performance of this set of variables -as assessed by the area under the curve (AUC) from a ROC curve- must be estimated for a sample (the test sample) that is independent of the sample used to predict the dependent variable (the training sample). An important aspect of predictive modeling (regardless of model type) is the ability of a model to generalize to new cases. Evaluating the predictive performance (AUC) of a set of independent variables using all cases from the original analysis sample tends to result in an overly optimistic estimate of predictive performance. K-fold cross-validation can be used to generate a more realistic estimate of predictive performance. To assess this ability in situations in which the number of observations is not very large, cross-validation and bootstrap strategies are useful. cvAUROC implements is a Stata program that implements k-fold cross-validation for the AUC for a binary outcome after fitting a logistic regression model.</p>
-<ol>
-<li><a href="https://ideas.repec.org/c/boc/bocode/s458324.html">https://ideas.repec.org/c/boc/bocode/s458324.html</a></li>
-<li><a href="https://github.com/migariane/cvAUROC">https://github.com/migariane/cvAUROC</a></li>
-</ol>
-
-    </div>
-
-    
-
-
-<div class="article-tags">
-  
-  <a class="btn btn-primary btn-outline" href="Page%28/tags/cvauroc%29">cvauroc</a>
-  
-</div>
-
-
-
-
-    
-    
-    
-
-    
-      
-      
-      
-      
-
-      
-      
-      
-      
-    
-
-  </div>
-</article>
-
-
-
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -427,4 +340,6 @@
 
   </body>
 </html>
+
+
 
