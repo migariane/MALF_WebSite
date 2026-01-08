@@ -9,8 +9,8 @@ preserveTaxonomyNames = true
 paginate = 10
 
 [build.environment]
-  HUGO_VERSION = "0.81.0"
-  HUGO_ENABLEGITINFO = "true"
+  HUGO_VERSION = "0.58.3"
+  HUGO_EXTENDED = "true"
 
 [build]
   publish = "public"
