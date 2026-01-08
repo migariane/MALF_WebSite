@@ -31,7 +31,7 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
- projects = ["CCI.md"]
+ projects = ["cci.md"]
 
 # Links (optional).
 url_pdf = ""

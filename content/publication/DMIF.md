@@ -1,6 +1,6 @@
 
 +++
-title = "The Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial."  
+title = "Tutorial: computational causal inference for applied researchers"
 date = "2022-07-11"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.

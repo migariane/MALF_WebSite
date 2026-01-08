@@ -1,5 +1,4 @@
-baseurl = "https://maluque.netlify.com/"
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://maluque.netlify.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "MALF"
 copyright = "&copy; 2017 Miguel Angel Luque Fernandez"
 theme = "theme/academic"
@@ -20,9 +19,8 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
+  home = [ "HTML", "CSS", "RSS" ]
+  section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
 # See: https://gohugo.io/readfiles/bfconfig/
@@ -42,18 +40,18 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Miguel-Angel Luque-Fernandez"
-  role = "i) Associate Professor of Biostatistics, Department of Statistics and Operations Research, University of Granada, Granada, Spain. ii) Former Senior Scientific Researcher of Epidemiology and Biostatistics (ISCIII, Spain). iii) Associate Professor (Honorary) of Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). iv) Research Scientist Collaborator at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology), and v) the Belgian School of Public Health at the University Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics)."
+  role = "Senior Scientific Researcher of Epidemiology and Biostatistics (ISCIII, Spain). Assistant Professor (Honorary) of Epidemiology and Biostatistics (Department of Epidemiology, LSHTM). Research Scientist Collaborator at the Harvard TH Chan School of Public, MA, U.S.A  (Department of Epidemiology) and the Belgian School of Public Health at the University Libre de Bruxelles, Belgium (Department of Clinical Epidemiology and Biostatistics)."
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Universidad de Granada (Department of Statistics and Operations Research)", url = "https://www.ugr.es/en/staff/miguel-angel-luque-fernandez" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque-fernandez.miguel-angel"} ]
+  organizations = [ { name = "Biomedical Research Institute of Granada (Andalusian School of Public Health, Miguel Servet I Award from the Carlos III Institute of Health)", url = "" }, { name = "London School of Hygiene and Tropical Medicine", url = "https://www.lshtm.ac.uk/aboutus/people/luque.miguel-angel" }, { name = "TH Chan Harvard School of Public Health", url = "https://scholar.harvard.edu/malf/home" }, { name = "Universite Libre de Bruxelles, School of Public Health", url = "https://www.ulb.ac.be/rech/inventaire/chercheurs/9/CH14549.html" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "mluquefe at ugr.es"
-  address = " Facultad de Ciencias Avenida de la Fuente Nueva S/N, 18071, Granada, Spain"
+  email = "miguel.luque.easp  at juntadeandalucia.es"
+  address = "Andalusian School of Public Health, 18010 Cuesta del Observatorio 4, Granada, Spain"
   office_hours = "Friday 8:00 to 10:00 or email for appointment"
-  phone = ""
+  phone = "0034 677 903 936"
   skype = "watzilei"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -206,7 +204,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:mluquefe@ugr.es"
+    link = "mailto:watzilei@hotmail.com"
 
   [[params.social]]
     icon = "twitter"
@@ -275,25 +273,4 @@ defaultContentLanguageInSubdir = false
   [Languages.en]
   languageCode = "en-us"
 
-[build]
-  command = "hugo --gc --minify -b $URL && npx pagefind --source 'public'"
-  publish = "public"
-
-[build.environment]
-  HUGO_VERSION = "0.136.5"
-  HUGO_ENABLEGITINFO = "true"
-
-[context.production.environment]
-  HUGO_ENV = "production"
-
-[context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
-
-[context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
-
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
 

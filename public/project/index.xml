@@ -2,34 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on MALF</title>
-    <link>https://maluque.netlify.app/project/</link>
+    <link>https://maluque.netlify.com/project/</link>
     <description>Recent content in Projects on MALF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Miguel Angel Luque Fernandez</copyright>
-    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>The Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial.</title>
-      <link>https://maluque.netlify.app/project/dmif/</link>
-      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://maluque.netlify.app/project/dmif/</guid>
-      <description>&lt;p&gt;Given that a smooth function of an asymptotically normal estimator is also asymptotically normally distributed, the Delta-method allows approximating the large-sample variance of a function of an estimator with known large-sample properties. In a more general setting, it is a technique for approximating the variance of a functional (i.e., an estimand) that takes a function as an input and applies another function to it (e.g. the expectation function). Specifically, we may approximate the variance of the function using the functional Delta-method based on the influence function (IF). The IF explores how a functional ϕ(θ) changes in response to small perturbations in the sample distribution of the estimator and allows computing the empirical standard error of the distribution of the functional. The ongoing development of new methods and techniques may pose a challenge for applied statisticians who are interested in mastering the application of these methods. In this tutorial, we review the use of the classical and functional Delta-method and their links to the IF from a practical perspective. We illustrate the methods using a cancer epidemiology example and we provide reproducible and commented code in R and Python using symbolic programming. The code can be accessed at&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/migariane/DeltaMethodInfluenceFunction&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/DeltaMethodInfluenceFunction&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;KEYWORDS: Causal Inference; Statistical Inference; Influence Function; Delta Method; Epidemiology; Statistics; Tutorial&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>HETMOR</title>
-      <link>https://maluque.netlify.app/project/hetmor/</link>
+      <link>https://maluque.netlify.com/project/hetmor/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/hetmor/</guid>
+      <guid>https://maluque.netlify.com/project/hetmor/</guid>
       <description>
 
 &lt;p&gt;The &lt;strong&gt;American Journal of Public Health&lt;/strong&gt; series &amp;ldquo;Evaluating Public Health Interventions&amp;rdquo; offers excellent practical guidance to researchers in public health.  In the 8&lt;sup&gt;th&lt;/sup&gt; part of the series, a valuable introduction to effect estimation of time-invariant public health interventions was given.[1] The authors of this article suggested that in terms of bias and efficiency there is no advantage of using modern causal inference methods over classical multivariable regression modeling.[1] However, this statement is not always true. Most importantly, both &lt;strong&gt;“effect modification”&lt;/strong&gt; and &lt;strong&gt;“collapsibility”&lt;/strong&gt; are important concepts when assessing the validity of using regression for causal effect estimation.&lt;/p&gt;
@@ -43,18 +29,18 @@
 &lt;p&gt;The assumptions from above can be encoded in a directed acyclic graph (DAG) (Figure 1). Here, each circle represents a variable and an arrow from A to B (A -&amp;gt; B) means that we assume that A causes B. The combination of these structural assumptions and appropriate statistical methods allow us to estimate the causal effect of dual therapy versus monotherapy on colorectal cancer patients&amp;rsquo; survival.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Figure 1&lt;/strong&gt; Directed Acyclic Graph&lt;br /&gt;
-&lt;img src=&#34;https://maluque.netlify.app/img/Figure1.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://maluque.netlify.com/img/Figure1.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The question we want to answer&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;A clinician may be interested in the following:&lt;br /&gt;
 how different would the risk of death have been had everyone received dual therapy compared to if everyone had experienced monotherapy? The causal marginal odds ratio (MOR) answers this question. Statisticians call this a “target quantity”. Each individual has a pair of potential outcomes: the outcome they would have received had they been exposed to dual treatment (A=1), denoted Y(1), and the outcome had they been unexposed, Y(0). The MOR is defined as:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://maluque.netlify.app/img/MOR2.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://maluque.netlify.com/img/MOR2.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A common approach would be to use logistic regression to model the odds of mortality given the intervention, and adjust for the confounders (W) which are age (w1)  socioeconomic status (w2), clinical stage (w3) and comorbidities (w4). Note that using a logistic regression, it estimates the conditional odds ratio (COR), which is:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://maluque.netlify.app/img/COR2.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://maluque.netlify.com/img/COR2.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;MOR and COR are typically not identical. First, if there is effect modification, e.g. if the effect of dual therapy is different for patients with no comorbidities compared to those having hypertension, then logistic regression (possibly including an interaction of treatment with one of the confounders) will not provide a marginal effect estimate, but only one conditional on the respective morbidity. To be more precise: we obtain an odds ratio that is valid for a given group of people, say those with hypertension, but it will not give us a marginal estimate. However, we are interested in a marginal estimate because we want to know if the dual therapy works in general. Of course, one may be specifically interested in patients with hypertension, but then the OR for this group is again conditional on the other variables, for example for elderly people, from a low socio-economic level, and advanced stage.&lt;/p&gt;
 
@@ -68,7 +54,7 @@ how different would the risk of death have been had everyone received dual thera
 
 &lt;p&gt;An alternative to using multivariable regression adjustment is the &lt;strong&gt;G-Formula&lt;/strong&gt; &lt;a href=&#34;a generalization of standardization with respect to the confounder distribution&#34; target=&#34;_blank&#34;&gt;5&lt;/a&gt;. In 1986, a seminal paper [5] demonstrated that under assumptions (conditional exchangeability, positivity, consistency, and non-interference, see Appendix below), a consistent estimate of the MOR can be obtained using the G-formula. G-computation,[6] based on the estimation of the components in the G-formula, allows for a treatment effect that may vary across the levels of the confounders.  Furthermore, under the assumption that the DAG above (Figure 1) is correct and the other assumptions, we can estimate the MOR using the g-formula as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://maluque.netlify.app/img/MOR.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://maluque.netlify.com/img/MOR.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;where P(W=w) refers to the marginal probability of w.&lt;/p&gt;
 
@@ -82,7 +68,7 @@ how different would the risk of death have been had everyone received dual thera
 
 &lt;p&gt;&lt;strong&gt;Figure 2&lt;/strong&gt; Absolute bias with respect the marginal causal odds ratio comparing the conditional odds ratio from classical multivariable logistic regression models versus the marginal odds ratio from G-computation based on the G-Formula, n = 5,000 and 10,000 simulation runs.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://maluque.netlify.app/img/Figure2.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://maluque.netlify.com/img/Figure2.png&#34; alt=&#34;This is an image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Briefly, one can see the bias of the multivariable logistic regression model is more pronounced under effect modification but persists -due to non-collapsibility- even under no effect modification.&lt;/p&gt;
 
@@ -127,10 +113,10 @@ Luque-Fernandez MA, Daniel Redondo Sanchez, Michael Schomaker (2018). Effect mod
     
     <item>
       <title>Colliders in Epidemiology: an educational interactive web application</title>
-      <link>https://maluque.netlify.app/project/collider/</link>
+      <link>https://maluque.netlify.com/project/collider/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/collider/</guid>
+      <guid>https://maluque.netlify.com/project/collider/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Correlation is not causation&lt;/strong&gt;&lt;br /&gt;
 During the last 30 years, classical epidemiology has focussed on the control of confounding [1]. However, it is only recently that epidemiologists have started to focus on the bias produced by colliders and mediators in addition to confounders [2, 3]. In the epidemiological literature different explanations have been proposed to describe the paradoxical protective effect of established risk factors. Such as, for example, the protective effect of maternal smoking on infant mortality and the incidence of pre-eclampsia, namely the birth weight and the smoking pre-eclampsia paradoxes [4, 5].&lt;br /&gt;
 &lt;strong&gt;What is a collider?&lt;/strong&gt;&lt;br /&gt;
@@ -152,20 +138,20 @@ To illustrate with an educational purpose the effect of conditioning on a collid
     
     <item>
       <title>Ensemble Learning for Model Prediction in Cancer Epidemiology</title>
-      <link>https://maluque.netlify.app/project/elmpce/</link>
+      <link>https://maluque.netlify.com/project/elmpce/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/elmpce/</guid>
+      <guid>https://maluque.netlify.com/project/elmpce/</guid>
       <description>&lt;p&gt;I am developing a cutting edge approach to evaluate and calibrate the performance of new and classic cancer comorbodity index such as the Charlson&amp;rsquo;s comorbidity score. Using a logistic model impose stringent constraints on the association between the explanatory variables and risk of death. For instance, the main-term logistic regression typically relies on a linear and additive relationship between a pre-specified transformation of the mean outcome and its predictors. Given the complex relationship between cancer mortality and comorbidity, the predictive power might be low if an incorrect parametric model is used as opposed to a more flexible option. I am using Data adaptive ensemble learning methods based on the Super Learner as a method for variable selection via cross-validation to select the optimum regression algorithm among all weighted combinations of a set of candidate machine learning algorithms. I am using different machine learning algorithms (Generalized Linear Models, Regression Trees, Bayesian Additive Regression Trees, Gradient Boosting, Generalized Additive Models, Stepwise Regression, Bayesian GLM, Lasso regression, Ridge Regression, Random Forest, Polynomial Spline Regression, and Bagging Classifier Trees). Then using cross-validation techniques I split the data into the mutually exclusive and exhaustive blocks of roughly equal size. Each algorithm is then fitted with nine blocks (the training set) and used to predict mortality for patients in the remaining block (the validation set). Finally, I calculate the mean squared error (MSE) between predicted and recorded mortality outcome comparing classical methods for prediction, machine learning and ensemble learning techniques.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Targeted Maximum Likelihood Estimation: A Tutorial for Applied Researchers</title>
-      <link>https://maluque.netlify.app/project/tmle/</link>
+      <link>https://maluque.netlify.com/project/tmle/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/tmle/</guid>
+      <guid>https://maluque.netlify.com/project/tmle/</guid>
       <description>&lt;p&gt;When estimating the average treatment effect for a binary or continuous outcome, methods that incorporate propensity scores, the G-formula, or Targeted Maximum Likelihood Estimation (TMLE) are preferred over naïve regression approaches which often lead misspecified models. Some methods require correct specification of the outcome model, whereas other methods require correct specification of the exposure model. Doubly-robust methods only require correct specification of one of these models. TMLE is a semiparametric doubly-robust method that enhances correct model specification by allowing flexible estimation using non-parametric machine-learning methods and requires weaker assumptions than its competitors. We provide a step-by-step guided implementation of TMLE and illustrate it in a realistic scenario based on cancer epidemiology where assumptions about correct model specification and positivity (i.e., when a study participant had zero probability of receiving the treatment) are nearly violated. This tutorial (&lt;a href=&#34;https://github.com/migariane/MALF&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/MALF&lt;/a&gt;) provides a concise and reproducible educational introduction to TMLE for a binary outcome and exposure. The reader should gain sufficient understanding of TMLE from this introductory tutorial to be able to apply the method in practice. Extensive R-code is provided in easy-to-read boxes throughout the article for replicability. Stata users will find a testing implementation of TMLE and additional material in the appendix and at the following GitHub repository: &lt;a href=&#34;https://github.com/migariane/SIM-TMLE-tutorial&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/SIM-TMLE-tutorial&lt;/a&gt;&lt;br /&gt;
     Alternatively, readers can visit the following link where I provide a little bit more informal but interactive and reproducible TMLE tutorial using Rmarkdown. Furthermore, readers will gain more insights regarding the derivation of the Wald type confidence intervals based on the Functional Delta Method:
     &lt;a href=&#34;https://migariane.github.io/TMLE.nb.html&#34; target=&#34;_blank&#34;&gt;https://migariane.github.io/TMLE.nb.html&lt;/a&gt;&lt;/p&gt;
@@ -174,10 +160,10 @@ To illustrate with an educational purpose the effect of conditioning on a collid
     
     <item>
       <title>Tutorial: computational causal inference for applied researchers</title>
-      <link>https://maluque.netlify.app/project/cci/</link>
+      <link>https://maluque.netlify.com/project/cci/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/cci/</guid>
+      <guid>https://maluque.netlify.com/project/cci/</guid>
       <description>&lt;p&gt;The purpose of many health studies is to estimate the effect of an exposure on an outcome. It is not always ethical to assign an exposure to individuals in randomised controlled trials, instead observational data and appropriate study design must be used. There are major challenges with observational studies, one of which is confounding that can lead to biased estimates of the causal effects. Controlling for confounding is commonly performed by simple adjustment for measured confounders; although, often this is not enough. Recent advances in the field of causal inference have dealt with confounding by building on classical standardisation methods. However, these recent advances have progressed quickly with a relative paucity of computational-oriented applied tutorials contributing to some confusion in the use of these methods among applied researchers. In this tutorial, we show the computational implementation of different causal inference estimators from a historical perspective where different estimators were developed to overcome the limitations of the previous one. Furthermore, we also briefly introduce the potential outcomes framework, illustrate the use of different methods using an illustration from the health care setting, and most importantly, we provide reproducible and commented code in Stata, R and Python for researchers to apply in their own observational study. The code can be accessed at&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/migariane/TutorialCausalInferenceEstimators&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/TutorialCausalInferenceEstimators&lt;/a&gt;&lt;/p&gt;
@@ -188,10 +174,10 @@ To illustrate with an educational purpose the effect of conditioning on a collid
     
     <item>
       <title>cvAUROC</title>
-      <link>https://maluque.netlify.app/project/cvauroc/</link>
+      <link>https://maluque.netlify.com/project/cvauroc/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/cvauroc/</guid>
+      <guid>https://maluque.netlify.com/project/cvauroc/</guid>
       <description>&lt;p&gt;Receiver operating characteristic (ROC) analysis is used for comparing predictive models, both in model selection and model evaluation. This method is often applied in clinical medicine and social science to assess the tradeoff between model sensitivity and specificity. After fitting a binary logistic regression model with a set of independent variables, the predictive performance of this set of variables -as assessed by the area under the curve (AUC) from a ROC curve- must be estimated for a sample (the test sample) that is independent of the sample used to predict the dependent variable (the training sample). An important aspect of predictive modeling (regardless of model type) is the ability of a model to generalize to new cases. Evaluating the predictive performance (AUC) of a set of independent variables using all cases from the original analysis sample tends to result in an overly optimistic estimate of predictive performance. K-fold cross-validation can be used to generate a more realistic estimate of predictive performance. To assess this ability in situations in which the number of observations is not very large, cross-validation and bootstrap strategies are useful. cvAUROC implements is a Stata program that implements k-fold cross-validation for the AUC for a binary outcome after fitting a logistic regression model.&lt;br /&gt;
 1. &lt;a href=&#34;https://ideas.repec.org/c/boc/bocode/s458324.html&#34; target=&#34;_blank&#34;&gt;https://ideas.repec.org/c/boc/bocode/s458324.html&lt;/a&gt;&lt;br /&gt;
 2. &lt;a href=&#34;https://github.com/migariane/cvAUROC&#34; target=&#34;_blank&#34;&gt;https://github.com/migariane/cvAUROC&lt;/a&gt;&lt;/p&gt;
