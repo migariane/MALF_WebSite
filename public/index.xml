@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MALF on MALF</title>
-    <link>https://maluque.netlify.app/</link>
+    <link>/</link>
     <description>Recent content in MALF on MALF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,28 +11,37 @@
     
     <item>
       <title>Projects</title>
-      <link>https://maluque.netlify.app/project/</link>
+      <link>/project/</link>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/</guid>
+      <guid>/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://maluque.netlify.app/publication/</link>
+      <link>/publication/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/publication/</guid>
+      <guid>/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://maluque.netlify.app/talk/</link>
+      <link>/talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/talk/</guid>
+      <guid>/talk/</guid>
       <description></description>
     </item>
     

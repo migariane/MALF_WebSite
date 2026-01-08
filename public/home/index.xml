@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on MALF</title>
-    <link>https://maluque.netlify.app/home/</link>
-    <description>Recent content in Homes on MALF</description>
+    <title>MALF</title>
+    <link>/home/</link>
+    <description>Recent content on MALF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
-    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://maluque.netlify.app/home/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://maluque.netlify.app/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>Biography I received my PhD in Preventive Medicine (Epidemiology) and Public Health, awarded Summa Cum Laude, from the University of Granada (UGR, Spain) and the ULB (Universite Libre de Bruxelles, Belgium). Also, I hold an MSc in Biostatistics from the University of Newcastle, Australia, an MSc in Epidemiology from the ULB and an MPH and health management from the UGR. After the completion of my Ph.D. in 2010, I moved to the Center for Infectious Disease Epidemiology and Research (University of Cape Town) as a postdoctoral fellow for two years.</description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://maluque.netlify.app/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/home/publications_selected/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>https://maluque.netlify.app/home/publications/</link>
+      <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/home/publications/</guid>
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Talks</title>
-      <link>https://maluque.netlify.app/home/talks/</link>
+      <link>/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/home/talks/</guid>
+      <guid>/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://maluque.netlify.app/home/projects/</link>
+      <link>/home/projects/</link>
       <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/home/projects/</guid>
+      <guid>/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>https://maluque.netlify.app/home/teaching/</link>
+      <link>/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/home/teaching/</guid>
+      <guid>/home/teaching/</guid>
       <description>I am a Distance Learning Module Organizer for the MSc in Epidemiology at the LSHTM and I teach in the following short courses:
   EPM304 Advanced Statistical Methods in Epidemiology
   Short Course: Introduction to Survival Analysis in Cancer Epidemiology: https://github.com/migariane/SVA-ULB
@@ -69,10 +69,10 @@
     
     <item>
       <title>Contact</title>
-      <link>https://maluque.netlify.app/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     

@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on MALF</title>
-    <link>https://maluque.netlify.app/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on MALF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
-    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://maluque.netlify.app/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Delta-Method and Influence Function in Medical Statistics: a Reproducible Tutorial.</title>
-      <link>https://maluque.netlify.app/project/dmif/</link>
+      <link>/project/dmif/</link>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/dmif/</guid>
+      <guid>/project/dmif/</guid>
       <description>Approximate statistical inference via determination of the asymptotic distribution of a statistic is routinely used for inference in applied medical statistics (e.g. to estimate the standard error of the marginal or conditional risk ratio). One method for variance estimation is the classical Delta-method but there is a knowledge gap as this method is not routinely included in training for applied medical statistics and its uses are not widely understood.</description>
     </item>
     
     <item>
       <title>HETMOR</title>
-      <link>https://maluque.netlify.app/project/hetmor/</link>
+      <link>/project/hetmor/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/hetmor/</guid>
+      <guid>/project/hetmor/</guid>
       <description>Effect modification and collapsibility when estimating the effect of public health interventions: A Monte-Carlo Simulation comparing classical multivariable regression adjustment versus the G-Formula based on a cancer epidemiology illustration: The American Journal of Public Health series Evaluating Public Health Interventions offers excellent practical guidance to researchers in public health.  In the 8 part of the series, a valuable introduction to effect estimation of time-invariant public health interventions was given. The authors of this article suggested that in terms of bias and efficiency there is no advantage of using modern causal inference methods over classical multivariable regression modeling. However, this statement is not always true. Most importantly, both &lt;strong&gt;effect modification&lt;/strong&gt; and &lt;strong&gt;collapsibility&lt;/strong&gt; are important concepts when assessing the validity of using regression for causal effect estimation (&lt;a href=&#34;https://github.com/migariane/hetmor/blob/master/README.md&#34;&gt;https://github.com/migariane/hetmor/blob/master/README.md&lt;/a&gt;)</description>
     </item>
     
     <item>
       <title>Colliders in Epidemiology: an educational interactive web application</title>
-      <link>https://maluque.netlify.app/project/collider/</link>
+      <link>/project/collider/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/collider/</guid>
+      <guid>/project/collider/</guid>
       <description>A collider for a certain pair of variables (outcome and exposure) is a third variable that is influenced by both of them. Controlling for, or conditioning the analysis on (i.e., stratification or regression) a collider, can introduce a spurious association between its causes (exposure and outcome) potentially explaining why the medical literature is full of paradoxical findings [6]. In DAG terminology, a collider is the variable in the middle of an inverted fork (i.e., variable W in A -&amp;gt; W &amp;lt;- Y). While this methodological note will not close the vexing gap between correlation and causation, but it will contribute to the increasing awareness and the general understanding of colliders among applied epidemiologists and medical researchers.</description>
     </item>
     
     <item>
       <title>cvAUROC</title>
-      <link>https://maluque.netlify.app/project/cvauroc/</link>
+      <link>/project/cvauroc/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/cvauroc/</guid>
+      <guid>/project/cvauroc/</guid>
       <description>cvAUROC is a Stata program that implements k-fold cross-validation for the AUC for a binary outcome after fitting a logistic regression model. Evaluating the predictive performance (AUC) of a set of independent variables using all cases from the original analysis sample tends to result in an overly optimistic estimate of predictive performance. K-fold cross-validation can be used to generate a more realistic estimate of predictive performance.</description>
     </item>
     
     <item>
       <title>Ensemble Learning for Model Prediction in Cancer Epidemiology</title>
-      <link>https://maluque.netlify.app/project/elmpce/</link>
+      <link>/project/elmpce/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/elmpce/</guid>
+      <guid>/project/elmpce/</guid>
       <description>To improve model selection and prediction in cancer epidemiology data adaptive ensemble learning methods based on the Super Learner as a method for variable selection via cross-validation are suitable. To selection of the optimal regression algorithm among all weighted combinations of a set of candidate machine learning algorithms the ensemble learning method improves model accuracy and prediction.</description>
     </item>
     
     <item>
       <title>Targeted Maximum Likelihood Estimation: A Tutorial for Applied Researchers</title>
-      <link>https://maluque.netlify.app/project/tmle/</link>
+      <link>/project/tmle/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/tmle/</guid>
+      <guid>/project/tmle/</guid>
       <description>TMLE is a semiparametric doubly-robust method for &lt;strong&gt;Causal Infernece&lt;/strong&gt; that enhances correct model specification by allowing flexible estimation using non-parametric machine-learning methods and requires weaker assumptions than its competitors.</description>
     </item>
     
     <item>
       <title>Tutorial: computational causal inference for applied researchers</title>
-      <link>https://maluque.netlify.app/project/cci/</link>
+      <link>/project/cci/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/project/cci/</guid>
+      <guid>/project/cci/</guid>
       <description>In this tutorial the computational we show the implementation of different causal inference estimators from a historical perspective where different estimators were developed to overcome the limitations of the previous one. Furthermore, we also briefly introduce the potential outcomes framework, illustrate the use of different methods using an illustration from the health care setting, and most importantly, we provide reproducible and commented code in Stata, R and Python for researchers to apply in their own observational study. Available at &lt;a href=&#34;https://arxiv.org/abs/2012.09920&#34;&gt;https://arxiv.org/abs/2012.09920&lt;/a&gt;</description>
     </item>
     

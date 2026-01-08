@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MALF</title>
-    <link>https://maluque.netlify.app/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on MALF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Miguel Angel Luque Fernandez</copyright>
-    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://maluque.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dmif</title>
-      <link>https://maluque.netlify.app/tags/dmif/</link>
+      <link>/tags/dmif/</link>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/tags/dmif/</guid>
+      <guid>/tags/dmif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hetmor</title>
-      <link>https://maluque.netlify.app/tags/hetmor/</link>
+      <link>/tags/hetmor/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/tags/hetmor/</guid>
+      <guid>/tags/hetmor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>collider</title>
-      <link>https://maluque.netlify.app/tags/collider/</link>
+      <link>/tags/collider/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/tags/collider/</guid>
+      <guid>/tags/collider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cci</title>
-      <link>https://maluque.netlify.app/tags/cci/</link>
+      <link>/tags/cci/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/tags/cci/</guid>
+      <guid>/tags/cci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cvauroc</title>
-      <link>https://maluque.netlify.app/tags/cvauroc/</link>
+      <link>/tags/cvauroc/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/tags/cvauroc/</guid>
+      <guid>/tags/cvauroc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>elmpce</title>
-      <link>https://maluque.netlify.app/tags/elmpce/</link>
+      <link>/tags/elmpce/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/tags/elmpce/</guid>
+      <guid>/tags/elmpce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TMLE</title>
-      <link>https://maluque.netlify.app/tags/tmle/</link>
+      <link>/tags/tmle/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://maluque.netlify.app/tags/tmle/</guid>
+      <guid>/tags/tmle/</guid>
       <description></description>
     </item>
     

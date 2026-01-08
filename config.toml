@@ -32,8 +32,9 @@ googleAnalytics = "UA-112070331-1"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+
 [outputs]
-  home = [ "HTML", "CSS", "RSS" ]
+  home = [ "HTML", "JSON", "RSS" ]
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
@@ -46,7 +47,8 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   # Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "ocean"
+  color_theme = "forest"
+  theme = "academic"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
