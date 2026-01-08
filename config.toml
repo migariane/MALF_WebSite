@@ -7,6 +7,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
+custom_css = ["styles.css"]
 
 [build.environment]
   HUGO_VERSION = "0.81.0"
