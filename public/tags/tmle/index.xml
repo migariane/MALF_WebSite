@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tmle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Targeted Maximum Likelihood Estimation: A Tutorial for Applied Researchers</title>
-      <link>/project/tmle/</link>
+      <link>/en/project/tmle/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/tmle/</guid>
+      <guid>/en/project/tmle/</guid>
       <description>TMLE is a semiparametric doubly-robust method for &lt;strong&gt;Causal Infernece&lt;/strong&gt; that enhances correct model specification by allowing flexible estimation using non-parametric machine-learning methods and requires weaker assumptions than its competitors.</description>
     </item>
     

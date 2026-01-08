@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/elmpce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ensemble Learning for Model Prediction in Cancer Epidemiology</title>
-      <link>/project/elmpce/</link>
+      <link>/en/project/elmpce/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/elmpce/</guid>
+      <guid>/en/project/elmpce/</guid>
       <description>To improve model selection and prediction in cancer epidemiology data adaptive ensemble learning methods based on the Super Learner as a method for variable selection via cross-validation are suitable. To selection of the optimal regression algorithm among all weighted combinations of a set of candidate machine learning algorithms the ensemble learning method improves model accuracy and prediction.</description>
     </item>
     

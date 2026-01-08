@@ -1,1 +1,8 @@
-{{ partial "widget_page.html" . }}
+{{ define "main" }}
+  <main class="universal-wrapper">
+    {{ .Content }}
+    {{ range .Resources.ByType "page" }}
+      {{ .Content }}
+    {{ end }}
+  </main>
+{{ end }}
