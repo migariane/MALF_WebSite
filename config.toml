@@ -7,7 +7,6 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
-custom_css = ["styles.css"]
 
 [build.environment]
   HUGO_VERSION = "0.81.0"
@@ -155,9 +154,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = "static/css"
-  custom_js  = "static/js"
-  custom_css = "styles.css"
+  custom_css = ["styles.css"]
 
   # Publication types.
   #   Used to categorize publications.
